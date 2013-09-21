@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Linguistics Department Map</title>
+  <style>
+  body {
+    margin: .25in .375in 0 .375in;
+  }
+  @page {
+    size: landscape;
+    /* auto vertical margin doesn't work on the body so put it here */
+    margin: auto 0;
+  }
+  @media screen {
+    body {
+      background-color: #FBFBFB;
+    }
+    .instructions {
+      margin-bottom: 2em;
+      display: none;
+      border: 1px solid #DDD;
+      background-color: white;
+      font-size: 80%;
+    }
+    .instructions a {
+      display: block;
+      text-align: right;
+      background-color: #EEE;
+      border-bottom: 1px solid #DDD;
+      padding: .5ex 1ex;
+      text-decoration: none;
+    }
+    .instructions a:hover {
+      background-color: #CCC;
+      color: black
+    }
+    .instructions > div {
+      padding: 0 10px;
+    }
+    .instructions span.button {
+      margin: 0 2px;
+      padding: 2px 6px 3px;
+      background: linear-gradient(to bottom, #F6F6F6, #DFDFDF);
+      border: 1px outset #F2F2F2;
+      border-radius: 2px;
+      box-shadow: 0 0 2px 0 #5298FA;
+      font: bold 11px "Lucida Grande", Helvetica, sans-serif;
+      color: #444444;
+    }
+  }
+  @media print {
+    body {
+      background-color: none;
+    }
+    .instructions {
+      display: none !important;
+    }
+  }
+  </style>
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <script src="static/jquery.min.js"></script>
+</head>
+<body>
+  <section class="instructions">
+    <a href="#print">&times;</a>
+    <div>
+      <h2>Instructions for printing / creating a PDF</h2>
+      <ol>
+        <li>Open this page in Chrome</li>
+        <li>Choose File -> Print</li>
+      </ol>
+      <p>You can now select a printer as the destination and click <span class="button">Print</span>,
+        or choose the "Save as PDF" destination and click <span class="button">Save</span>.</p>
+      <h3><i>This box will not be printed.</i></h3>
+    </div>
+  </section>
+  <script>
+  function parseCSV(csv) {
+    var obj = {};
+    csv.split(/\n/g).forEach(function(row) {
+      var cells = row.split(',');
+      obj[cells[0]] = cells[1];
+    });
+    return obj;
+  }
+  var svg_xhr =  $.ajax('map.svg', {dataType: 'text'});
+  var csv_xhr =  $.ajax('students.csv', {dataType: 'text'});
+  $.when(svg_xhr, csv_xhr).done(function() {
+    var students = parseCSV(csv_xhr.responseText);
+
+    var svg_template = svg_xhr.responseText;
+    var svg = svg_template.replace(/\{\{(\w+)\}\}/g, function(match, group) {
+      return students[group];
+    });
+
+    $('body').append(svg);
+    $('svg').width('100%').height('100%');
+  });
+  if (window.location.hash != '#print') {
+    $('.instructions').show();
+    $('.instructions a').on('click', function() {
+      $('.instructions').slideUp(200);
+    })
+  }
+  </script>
+</body>
+</html>

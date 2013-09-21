@@ -1,0 +1,414 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="747px" height="527px" viewBox="0 0 747 527" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <title>map</title>
+    <description>Created with Sketch (http://www.bohemiancoding.com/sketch)</description>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Offices-Shapes" sketch:type="MSLayerGroup" transform="translate(0.000000, 58.000000)" stroke="#000000">
+            <path d="M746.07715,242.90234 L694.98047,242.90234 L694.98047,254.24707 L614.0127,254.24707 L614.0127,165.2832 L746.07715,165.2832 L746.07715,242.90234 Z M746.07715,242.90234" id="Shape" sketch:type="MSShapeGroup"></path>
+            <path d="M746.07715,467.79492 L666.66895,467.79492 L666.66895,412.77734 L688.78711,412.77734 L688.78711,420.3418 L746.07715,420.3418 L746.07715,467.79492 Z M746.07715,467.79492" id="Shape" sketch:type="MSShapeGroup"></path>
+            <rect d="M614.4873,412.77734 L614.4873,467.79492 L663.64453,467.79492 L663.64453,412.77734 L614.4873,412.77734 Z M614.4873,412.77734" id="Rectangle" sketch:type="MSShapeGroup" x="614.4873" y="412.77734" width="49.15723" height="55.01758"></rect>
+            <rect d="M526.38281,412.77734 L526.38281,467.79492 L571.75879,467.79492 L571.75879,412.77734 L526.38281,412.77734 Z M526.38281,412.77734" id="Rectangle" sketch:type="MSShapeGroup" x="526.38281" y="412.77734" width="45.37598" height="55.01758"></rect>
+            <rect d="M484.03125,412.77734 L484.03125,467.79492 L522.97949,467.79492 L522.97949,412.77734 L484.03125,412.77734 Z M484.03125,412.77734" id="Rectangle" sketch:type="MSShapeGroup" x="484.03125" y="412.77734" width="38.94824" height="55.01758"></rect>
+            <rect d="M439.79004,412.77734 L439.79004,467.79492 L481.38379,467.79492 L481.38379,412.77734 L439.79004,412.77734 Z M439.79004,412.77734" id="Rectangle" sketch:type="MSShapeGroup" x="439.79004" y="412.77734" width="41.59375" height="55.01758"></rect>
+            <rect d="M363.02979,412.77734 L363.02979,467.79492 L437.14356,467.79492 L437.14356,412.77734 L363.02979,412.77734 Z M363.02979,412.77734" id="Rectangle" sketch:type="MSShapeGroup" x="363.02979" y="412.77734" width="74.11377" height="55.01758"></rect>
+            <rect d="M266.22949,412.77734 L266.22949,467.79492 L309.71484,467.79492 L309.71484,412.77734 L266.22949,412.77734 Z M266.22949,412.77734" id="Rectangle" sketch:type="MSShapeGroup" x="266.22949" y="412.77734" width="43.48535" height="55.01758"></rect>
+            <rect d="M312.77686,412.77734 L312.77686,467.79492 L360,467.79492 L360,412.77734 L312.77686,412.77734 Z M312.77686,412.77734" id="Rectangle" sketch:type="MSShapeGroup" x="312.77686" y="412.77734" width="47.22314" height="55.01758"></rect>
+            <rect d="M275.67578,342.44434 L275.67578,391.60254 L319.25,391.60254 L319.25,342.44434 L275.67578,342.44434 Z M275.67578,342.44434" id="Rectangle" sketch:type="MSShapeGroup" x="275.67578" y="342.44434" width="43.57422" height="49.1582"></rect>
+            <rect d="M275.67578,288.95117 L275.67578,339.98633 L319.25,339.98633 L319.25,288.95117 L275.67578,288.95117 Z M275.67578,288.95117" id="Rectangle" sketch:type="MSShapeGroup" x="275.67578" y="288.95117" width="43.57422" height="51.03516"></rect>
+            <rect d="M223.50049,412.77734 L223.50049,467.79492 L263.58252,467.79492 L263.58252,412.77734 L223.50049,412.77734 Z M223.50049,412.77734" id="Rectangle" sketch:type="MSShapeGroup" x="223.50049" y="412.77734" width="40.08203" height="55.01758"></rect>
+            <rect d="M179.6377,412.77734 L179.6377,467.79492 L221.23145,467.79492 L221.23145,412.77734 L179.6377,412.77734 Z M179.6377,412.77734" id="Rectangle" sketch:type="MSShapeGroup" x="179.6377" y="412.77734" width="41.59375" height="55.01758"></rect>
+            <rect d="M136.53027,412.77734 L136.53027,467.79492 L176.99121,467.79492 L176.99121,412.77734 L136.53027,412.77734 Z M136.53027,412.77734" id="Rectangle" sketch:type="MSShapeGroup" x="136.53027" y="412.77734" width="40.46094" height="55.01758"></rect>
+            <rect d="M82.83643,412.77734 L82.83643,467.79492 L134.82715,467.79492 L134.82715,412.77734 L82.83643,412.77734 Z M82.83643,412.77734" id="Rectangle" sketch:type="MSShapeGroup" x="82.83643" y="412.77734" width="51.99072" height="55.01758"></rect>
+            <path d="M80.56494,467.79492 L0.78223,467.79492 L0.78223,418.82617 L60.87646,418.82617 L60.87646,412.77734 L80.56494,412.77734 L80.56494,467.79492 Z M80.56494,467.79492" id="Shape" sketch:type="MSShapeGroup"></path>
+            <rect d="M0.78223,247.15723 L0.78223,290.26172 L58.25879,290.26172 L58.25879,247.15723 L0.78223,247.15723 Z M0.78223,247.15723" id="Rectangle" sketch:type="MSShapeGroup" x="0.78223" y="247.15723" width="57.47656" height="43.10449"></rect>
+            <rect d="M0.78223,293.00488 L0.78223,330.10937 L58.25879,330.10937 L58.25879,293.00488 L0.78223,293.00488 Z M0.78223,293.00488" id="Rectangle" sketch:type="MSShapeGroup" x="0.78223" y="293.00488" width="57.47656" height="37.10449"></rect>
+            <rect d="M0.78223,333.61035 L0.78223,372.71484 L58.25879,372.71484 L58.25879,333.61035 L0.78223,333.61035 Z M0.78223,333.61035" id="Rectangle" sketch:type="MSShapeGroup" x="0.78223" y="333.61035" width="57.47656" height="39.10449"></rect>
+            <rect d="M0.78223,375.64551 L0.78223,415.66602 L58.25879,415.66602 L58.25879,375.64551 L0.78223,375.64551 Z M0.78223,375.64551" id="Rectangle" sketch:type="MSShapeGroup" x="0.78223" y="375.64551" width="57.47656" height="40.02051"></rect>
+            <rect d="M691.24707,378.36914 L691.24707,418.07226 L746.07715,418.07226 L746.07715,378.36914 L691.24707,378.36914 Z M691.24707,378.36914" id="Rectangle" sketch:type="MSShapeGroup" x="691.24707" y="378.36914" width="54.83008" height="39.70312"></rect>
+            <rect d="M691.24707,333.74805 L691.24707,376.10157 L746.07715,376.10157 L746.07715,333.74805 L691.24707,333.74805 Z M691.24707,333.74805" id="Rectangle" sketch:type="MSShapeGroup" x="691.24707" y="333.74805" width="54.83008" height="42.35352"></rect>
+            <rect d="M691.24707,292.53516 L691.24707,331.85743 L746.07715,331.85743 L746.07715,292.53516 L691.24707,292.53516 Z M691.24707,292.53516" id="Rectangle" sketch:type="MSShapeGroup" x="691.24707" y="292.53516" width="54.83008" height="39.32227"></rect>
+            <path d="M691.24707,290.26367 L746.07715,290.26367 L746.07715,245.93262 L697.10742,245.93262 L697.10742,256.98828 L691.24707,256.98828 L691.24707,290.26367 Z M691.24707,290.26367" id="Shape" sketch:type="MSShapeGroup"></path>
+            <rect d="M172.82715,342.44434 L172.82715,391.60254 L273.78858,391.60254 L273.78858,342.44434 L172.82715,342.44434 Z M172.82715,342.44434" id="Rectangle" sketch:type="MSShapeGroup" x="172.82715" y="342.44434" width="100.96143" height="49.1582"></rect>
+            <rect d="M172.82715,289.12695 L172.82715,339.98633 L273.78858,339.98633 L273.78858,289.12695 L172.82715,289.12695 Z M172.82715,289.12695" id="Rectangle" sketch:type="MSShapeGroup" x="172.82715" y="289.12695" width="100.96143" height="50.85938"></rect>
+            <rect d="M341.85352,288.37109 L341.85352,321.84765 L427.31153,321.84765 L427.31153,288.37109 L341.85352,288.37109 Z M341.85352,288.37109" id="Rectangle" sketch:type="MSShapeGroup" x="341.85352" y="288.37109" width="85.45801" height="33.47656"></rect>
+            <rect d="M69.13037,55.1494 L69.13037,118 L154.58838,118 L154.58838,55.1494 L69.13037,55.1494 Z M69.13037,55.1494" id="Rectangle" sketch:type="MSShapeGroup" x="69.13037" y="55.1494" width="85.45801" height="62.8506"></rect>
+            <rect d="M536.25,78.74463 L536.25,111.70947 L585.25,111.70947 L585.25,78.74463 L536.25,78.74463 Z M536.25,78.74463" id="Rectangle" sketch:type="MSShapeGroup" x="536.25" y="78.74463" width="49" height="32.96484"></rect>
+            <rect d="M536.25,43.53516 L536.25,76.5 L585.25,76.5 L585.25,43.53516 L536.25,43.53516 Z M536.25,43.53516" id="Rectangle" sketch:type="MSShapeGroup" x="536.25" y="43.53516" width="49" height="32.96484"></rect>
+            <rect d="M536.25,113.9541 L536.25,146.91894 L585.25,146.91894 L585.25,113.9541 L536.25,113.9541 Z M536.25,113.9541" id="Rectangle" sketch:type="MSShapeGroup" x="536.25" y="113.9541" width="49" height="32.96484"></rect>
+            <rect d="M536.25,149.16309 L536.25,182.12793 L585.25,182.12793 L585.25,149.16309 L536.25,149.16309 Z M536.25,149.16309" id="Rectangle" sketch:type="MSShapeGroup" x="536.25" y="149.16309" width="49" height="32.96484"></rect>
+            <rect d="M536.25,184.37256 L536.25,217.3374 L585.25,217.3374 L585.25,184.37256 L536.25,184.37256 Z M536.25,184.37256" id="Rectangle" sketch:type="MSShapeGroup" x="536.25" y="184.37256" width="49" height="32.96484"></rect>
+            <rect d="M660,36 L660,70 L702,70 L702,36 L660,36 Z M660,36" id="Rectangle" sketch:type="MSShapeGroup" x="660" y="36" width="42" height="34"></rect>
+            <rect d="M660,7.10542736e-15 L660,34 L702,34 L702,7.10542736e-15 L660,7.10542736e-15 Z M660,7.10542736e-15" id="Rectangle" sketch:type="MSShapeGroup" x="660" y="6.92066395e-15" width="42" height="34"></rect>
+            <path d="M712.949198,0 L704,0 L704,34 L746,34 L746,0 L726.097812,0" id="Shape" sketch:type="MSShapeGroup"></path>
+            <rect d="M704,36 L704,70 L746,70 L746,36 L704,36 Z M704,36" id="Rectangle" sketch:type="MSShapeGroup" x="704" y="36" width="42" height="34"></rect>
+            <rect d="M429.58008,288.37109 L429.58008,391.60254 L506.33985,391.60254 L506.33985,288.37109 L429.58008,288.37109 Z M429.58008,288.37109" id="Rectangle" sketch:type="MSShapeGroup" x="429.58008" y="288.37109" width="76.75977" height="103.23145"></rect>
+            <rect d="M508.23047,288.37109 L508.23047,339.98632 L563.43945,339.98632 L563.43945,288.37109 L508.23047,288.37109 Z M508.23047,288.37109" id="Rectangle" sketch:type="MSShapeGroup" x="508.23047" y="288.37109" width="55.20898" height="51.61523"></rect>
+            <rect d="M508.23047,342.44434 L508.23047,391.60254 L563.43945,391.60254 L563.43945,342.44434 L508.23047,342.44434 Z M508.23047,342.44434" id="Rectangle" sketch:type="MSShapeGroup" x="508.23047" y="342.44434" width="55.20898" height="49.1582"></rect>
+            <rect d="M341.85352,323.91699 L341.85352,391.60254 L427.31153,391.60254 L427.31153,323.91699 L341.85352,323.91699 Z M341.85352,323.91699" id="Rectangle" sketch:type="MSShapeGroup" x="341.85352" y="323.91699" width="85.45801" height="67.68555"></rect>
+        </g>
+        <g id="Offices-Labels" sketch:type="MSLayerGroup" transform="translate(2.000000, 69.000000)" font-weight="normal" font-family="Helvetica" fill="#000000">
+            <text id="4.422" sketch:type="MSTextLayer" font-size="9">
+                <tspan x="76" y="67">4.422</tspan>
+                <tspan x="76" y="78">Computational</tspan>
+                <tspan x="76" y="89">Linguistics Lab</tspan>
+            </text>
+            <text id="4.610A" sketch:type="MSTextLayer" font-size="9">
+                <tspan x="708" y="9">4.610A</tspan>
+            </text>
+            <text id="Dr.-Colin-Bannard" sketch:type="MSTextLayer" font-size="8" sketch:alignment="middle">
+                <tspan x="12.1601562" y="255">Dr. Colin </tspan>
+                <tspan x="12.3769531" y="265">Bannard</tspan>
+            </text>
+            <text id="Dr.-Gemma-Boleda" sketch:type="MSTextLayer" font-size="8" sketch:alignment="middle">
+                <tspan x="7.05078125" y="340">Dr. Gemma </tspan>
+                <tspan x="15.0449219" y="350">Boleda</tspan>
+            </text>
+            <text id="Dr.-Danny-Law" sketch:type="MSTextLayer" font-size="8" sketch:alignment="middle">
+                <tspan x="10.2128906" y="383">Dr. Danny </tspan>
+                <tspan x="20.6621094" y="393">Law</tspan>
+            </text>
+            <text id="Dr.-Stephen-Wechsler" sketch:type="MSTextLayer" font-size="8" sketch:alignment="middle">
+                <tspan x="17.3730469" y="428">Dr. Stephen </tspan>
+                <tspan x="21.9003906" y="438">Wechsler</tspan>
+            </text>
+            <text id="Dr.-Hans-Kamp" sketch:type="MSTextLayer" font-size="8" sketch:alignment="middle">
+                <tspan x="90.4375" y="428">Dr. Hans </tspan>
+                <tspan x="95.5507812" y="438">Kamp</tspan>
+            </text>
+            <text id="Dr.-John-Beavers" sketch:type="MSTextLayer" font-size="8" sketch:alignment="middle">
+                <tspan x="140.101562" y="428">Dr. John </tspan>
+                <tspan x="140.326172" y="438">Beavers</tspan>
+            </text>
+            <text id="Dr.-David-Beaver" sketch:type="MSTextLayer" font-size="8" sketch:alignment="middle">
+                <tspan x="181.548828" y="428">Dr. David </tspan>
+                <tspan x="185.326172" y="438">Beaver</tspan>
+            </text>
+            <text id="4.434" sketch:type="MSTextLayer" font-size="9">
+                <tspan x="178" y="295">4.434</tspan>
+                <tspan x="178" y="306">Syntax &amp; Semantics</tspan>
+                <tspan x="178" y="317">Computer Lab</tspan>
+            </text>
+            <text id="4.710" sketch:type="MSTextLayer" font-size="9">
+                <tspan x="178" y="348">4.710</tspan>
+                <tspan x="178" y="359">Syntax &amp; Semantics</tspan>
+                <tspan x="178" y="370">Meeting Room</tspan>
+            </text>
+            <text id="4.716" sketch:type="MSTextLayer" font-size="9">
+                <tspan x="346" y="354">4.716</tspan>
+                <tspan x="346" y="365">Documentary Lab</tspan>
+            </text>
+            <text id="4.304" sketch:type="MSTextLayer" font-size="9">
+                <tspan x="319" y="214">4.304</tspan>
+                <tspan x="319" y="225">Department of Linguistics</tspan>
+            </text>
+            <text id="4.722" sketch:type="MSTextLayer" font-size="9">
+                <tspan x="437" y="355">4.722</tspan>
+                <tspan x="437" y="366">Phonetics Lab</tspan>
+            </text>
+            <text id="4.722B" sketch:type="MSTextLayer" font-size="9">
+                <tspan x="513" y="348">4.722B</tspan>
+                <tspan x="513" y="359">Recording </tspan>
+                <tspan x="513" y="370">Booth</tspan>
+            </text>
+            <text id="4.722A" sketch:type="MSTextLayer" font-size="9">
+                <tspan x="513" y="290">4.722A</tspan>
+                <tspan x="513" y="301">Recording </tspan>
+                <tspan x="513" y="312">Control </tspan>
+                <tspan x="513" y="323">Room</tspan>
+            </text>
+            <text id="Dr.-Megan-Crowhurst" sketch:type="MSTextLayer" font-size="8" sketch:alignment="middle">
+                <tspan x="222.544922" y="428">Dr. Megan </tspan>
+                <tspan x="222.773438" y="438">Crowhurst</tspan>
+            </text>
+            <text id="Dr.-David-Quinto-Poz" sketch:type="MSTextLayer" font-size="8" sketch:alignment="middle">
+                <tspan x="269.548828" y="423">Dr. David </tspan>
+                <tspan x="272.882812" y="433">Quinto-</tspan>
+                <tspan x="274.882812" y="443">Pozos</tspan>
+            </text>
+            <text id="Leslie-Crooks" sketch:type="MSTextLayer" font-size="8" sketch:alignment="middle">
+                <tspan x="323.548828" y="428">Leslie </tspan>
+                <tspan x="321.330078" y="438">Crooks</tspan>
+            </text>
+            <text id="Ben-Rapstine" sketch:type="MSTextLayer" font-size="8" sketch:alignment="middle">
+                <tspan x="287.882812" y="353">Ben </tspan>
+                <tspan x="279.212891" y="363">Rapstine</tspan>
+            </text>
+            <text id="Gina-Pollard" sketch:type="MSTextLayer" font-size="8" sketch:alignment="middle">
+                <tspan x="342" y="271">Gina Pollard</tspan>
+            </text>
+            <text id="Under-graduate-Coord" sketch:type="MSTextLayer" font-size="8" sketch:alignment="middle">
+                <tspan x="282.773438" y="291">Under-</tspan>
+                <tspan x="279.208984" y="301">graduate </tspan>
+                <tspan x="282.773438" y="311">Coord-</tspan>
+                <tspan x="284.994141" y="321">inator</tspan>
+            </text>
+            <text id="Dr.-Richard-P.-Meier" sketch:type="MSTextLayer" font-size="8" sketch:alignment="middle">
+                <tspan x="378.492188" y="428">Dr. Richard </tspan>
+                <tspan x="384.123047" y="438">P. Meier</tspan>
+            </text>
+            <text id="Dr.-Rajka-Smiljanic" sketch:type="MSTextLayer" font-size="8" sketch:alignment="middle">
+                <tspan x="442.548828" y="428">Dr. Rajka </tspan>
+                <tspan x="442.996094" y="438">Smiljanic</tspan>
+            </text>
+            <text id="Dr.-Jason-Baldridge" sketch:type="MSTextLayer" font-size="8" sketch:alignment="middle">
+                <tspan x="701.101562" y="299">Dr. Jason </tspan>
+                <tspan x="701.099609" y="309">Baldridge</tspan>
+            </text>
+            <text id="Deborah-White" sketch:type="MSTextLayer" font-size="8" sketch:alignment="middle">
+                <tspan x="542.65625" y="83">Deborah </tspan>
+                <tspan x="547.775391" y="93">White</tspan>
+            </text>
+            <text id="Franky-Schussel" sketch:type="MSTextLayer" font-size="8" sketch:alignment="middle">
+                <tspan x="545.775391" y="118">Franky </tspan>
+                <tspan x="541.769531" y="128">Schussel</tspan>
+            </text>
+            <text id="Carol-Seeger" sketch:type="MSTextLayer" font-size="8" sketch:alignment="middle">
+                <tspan x="548.441406" y="153">Carol </tspan>
+                <tspan x="545.101562" y="163">Seeger</tspan>
+            </text>
+            <text id="Michael-Wynne" sketch:type="MSTextLayer" font-size="8" sketch:alignment="middle">
+                <tspan x="544.216797" y="188">Michael </tspan>
+                <tspan x="545.585938" y="198">Wynne</tspan>
+            </text>
+            <text id="Tutor" sketch:type="MSTextLayer" font-size="8" sketch:alignment="middle">
+                <tspan x="548.810547" y="53">Tutor</tspan>
+            </text>
+            <text id="Dr.-Patience-Epps" sketch:type="MSTextLayer" font-size="8" sketch:alignment="middle">
+                <tspan x="695.708984" y="343">Dr. Patience </tspan>
+                <tspan x="708.382812" y="353">Epps</tspan>
+            </text>
+            <text id="Dr.-Katrin-Erk" sketch:type="MSTextLayer" font-size="8" sketch:alignment="middle">
+                <tspan x="701.326172" y="385">Dr. Katrin </tspan>
+                <tspan x="712" y="395">Erk</tspan>
+            </text>
+            <text id="4.704" sketch:type="MSTextLayer" font-size="9" sketch:alignment="middle">
+                <tspan x="705.739014" y="256">4.704</tspan>
+                <tspan x="704.493164" y="267">CILLA</tspan>
+            </text>
+            <text id="Dr.-Scott-Myers" sketch:type="MSTextLayer" font-size="8" sketch:alignment="middle">
+                <tspan x="485.660156" y="428">Dr. Scott </tspan>
+                <tspan x="490.111328" y="438">Myers</tspan>
+            </text>
+            <text id="Dr.-Tony-Woodbury" sketch:type="MSTextLayer" font-size="8" sketch:alignment="middle">
+                <tspan x="531.896484" y="428">Dr. Tony </tspan>
+                <tspan x="528.339844" y="438">Woodbury</tspan>
+            </text>
+            <text id="Dr.-Harvey-Sussman" sketch:type="MSTextLayer" font-size="8" sketch:alignment="middle">
+                <tspan x="618.605469" y="428">Dr. Harvey </tspan>
+                <tspan x="620.826172" y="438">Sussman</tspan>
+            </text>
+            <text id="Dr.-Nora-England" sketch:type="MSTextLayer" font-size="8" sketch:alignment="middle">
+                <tspan x="688.605469" y="428">Dr. Nora </tspan>
+                <tspan x="688.820312" y="438">England</tspan>
+            </text>
+        </g>
+        <g id="Workstation-Shapes" sketch:type="MSLayerGroup" transform="translate(79.000000, 142.000000)" stroke="#000000">
+            <rect d="M2.91525149,229 L0,229 L0,250 L26,250 L26,229 L2.91525149,229 Z M2.91525149,229" id="Rectangle-65" sketch:type="MSShapeGroup" x="0" y="229" width="26" height="21"></rect>
+            <rect d="M56.9152515,251 L54,251 L54,272 L80,272 L80,251 L56.9152515,251 Z M56.9152515,251" id="Rectangle-65" sketch:type="MSShapeGroup" x="54" y="251" width="26" height="21"></rect>
+            <rect d="M29.9152515,251 L27,251 L27,272 L53,272 L53,251 L29.9152515,251 Z M29.9152515,251" id="Rectangle-65" sketch:type="MSShapeGroup" x="27" y="251" width="26" height="21"></rect>
+            <rect d="M2.91525149,251 L0,251 L0,272 L26,272 L26,251 L2.91525149,251 Z M2.91525149,251" id="Rectangle-65" sketch:type="MSShapeGroup" x="0" y="251" width="26" height="21"></rect>
+            <rect d="M56.9152515,287 L54,287 L54,308 L80,308 L80,287 L56.9152515,287 Z M56.9152515,287" id="Rectangle-65-copy" sketch:type="MSShapeGroup" x="54" y="287" width="26" height="21"></rect>
+            <rect d="M29.9152515,287 L27,287 L27,308 L53,308 L53,287 L29.9152515,287 Z M29.9152515,287" id="Rectangle-65-copy" sketch:type="MSShapeGroup" x="27" y="287" width="26" height="21"></rect>
+            <rect d="M2.91525149,287 L0,287 L0,308 L26,308 L26,287 L2.91525149,287 Z M2.91525149,287" id="Rectangle-65-copy" sketch:type="MSShapeGroup" x="0" y="287" width="26" height="21"></rect>
+            <rect d="M56.9152515,229 L54,229 L54,250 L80,250 L80,229 L56.9152515,229 Z M56.9152515,229" id="Rectangle-65" sketch:type="MSShapeGroup" x="54" y="229" width="26" height="21"></rect>
+            <rect d="M29.9152515,229 L27,229 L27,250 L53,250 L53,229 L29.9152515,229 Z M29.9152515,229" id="Rectangle-65" sketch:type="MSShapeGroup" x="27" y="229" width="26" height="21"></rect>
+            <rect d="M2.91525149,162 L0,162 L0,183 L26,183 L26,162 L2.91525149,162 Z M2.91525149,162" id="Rectangle-65-copy" sketch:type="MSShapeGroup" x="0" y="162" width="26" height="21"></rect>
+            <rect d="M29.9152515,184 L27,184 L27,205 L53,205 L53,184 L29.9152515,184 Z M29.9152515,184" id="Rectangle-65-copy" sketch:type="MSShapeGroup" x="27" y="184" width="26" height="21"></rect>
+            <rect d="M2.91525149,184 L0,184 L0,205 L26,205 L26,184 L2.91525149,184 Z M2.91525149,184" id="Rectangle-65-copy" sketch:type="MSShapeGroup" x="0" y="184" width="26" height="21"></rect>
+            <rect d="M29.9152515,162 L27,162 L27,183 L53,183 L53,162 L29.9152515,162 Z M29.9152515,162" id="Rectangle-65-copy" sketch:type="MSShapeGroup" x="27" y="162" width="26" height="21"></rect>
+            <rect d="M516.915251,227 L514,227 L514,248 L540,248 L540,227 L516.915251,227 Z M516.915251,227" id="Rectangle-65" sketch:type="MSShapeGroup" x="514" y="227" width="26" height="21"></rect>
+            <rect d="M570.915251,249 L568,249 L568,270 L594,270 L594,249 L570.915251,249 Z M570.915251,249" id="Rectangle-65" sketch:type="MSShapeGroup" x="568" y="249" width="26" height="21"></rect>
+            <rect d="M543.915251,249 L541,249 L541,270 L567,270 L567,249 L543.915251,249 Z M543.915251,249" id="Rectangle-65" sketch:type="MSShapeGroup" x="541" y="249" width="26" height="21"></rect>
+            <rect d="M516.915251,249 L514,249 L514,270 L540,270 L540,249 L516.915251,249 Z M516.915251,249" id="Rectangle-65" sketch:type="MSShapeGroup" x="514" y="249" width="26" height="21"></rect>
+            <rect d="M570.915251,227 L568,227 L568,248 L594,248 L594,227 L570.915251,227 Z M570.915251,227" id="Rectangle-65" sketch:type="MSShapeGroup" x="568" y="227" width="26" height="21"></rect>
+            <rect d="M543.915251,227 L541,227 L541,248 L567,248 L567,227 L543.915251,227 Z M543.915251,227" id="Rectangle-65" sketch:type="MSShapeGroup" x="541" y="227" width="26" height="21"></rect>
+            <rect d="M516.915251,192 L514,192 L514,213 L540,213 L540,192 L516.915251,192 Z M516.915251,192" id="Rectangle-65-copy" sketch:type="MSShapeGroup" x="514" y="192" width="26" height="21"></rect>
+            <rect d="M570.915251,192 L568,192 L568,213 L594,213 L594,192 L570.915251,192 Z M570.915251,192" id="Rectangle-65-copy" sketch:type="MSShapeGroup" x="568" y="192" width="26" height="21"></rect>
+            <rect d="M543.915251,192 L541,192 L541,213 L567,213 L567,192 L543.915251,192 Z M543.915251,192" id="Rectangle-65-copy" sketch:type="MSShapeGroup" x="541" y="192" width="26" height="21"></rect>
+            <rect d="M516.915251,283 L514,283 L514,304 L540,304 L540,283 L516.915251,283 Z M516.915251,283" id="Rectangle-65-copy-2" sketch:type="MSShapeGroup" x="514" y="283" width="26" height="21"></rect>
+            <rect d="M570.915251,283 L568,283 L568,304 L594,304 L594,283 L570.915251,283 Z M570.915251,283" id="Rectangle-65-copy-2" sketch:type="MSShapeGroup" x="568" y="283" width="26" height="21"></rect>
+            <rect d="M543.915251,283 L541,283 L541,304 L567,304 L567,283 L543.915251,283 Z M543.915251,283" id="Rectangle-65-copy-2" sketch:type="MSShapeGroup" x="541" y="283" width="26" height="21"></rect>
+            <rect d="M575.915251,3 L573,3 L573,24 L599,24 L599,3 L575.915251,3 Z M575.915251,3" id="Rectangle-65-copy-2" sketch:type="MSShapeGroup" transform="translate(586.000000, 13.500000) rotate(-270.000000) translate(-586.000000, -13.500000) " x="573" y="3" width="26" height="21"></rect>
+            <rect d="M597.915251,3 L595,3 L595,24 L621,24 L621,3 L597.915251,3 Z M597.915251,3" id="Rectangle-65-copy-3" sketch:type="MSShapeGroup" transform="translate(608.000000, 13.500000) rotate(-270.000000) translate(-608.000000, -13.500000) " x="595" y="3" width="26" height="21"></rect>
+            <rect d="M619.915251,3 L617,3 L617,24 L643,24 L643,3 L619.915251,3 Z M619.915251,3" id="Rectangle-65-copy-4" sketch:type="MSShapeGroup" transform="translate(630.000000, 13.500000) rotate(-270.000000) translate(-630.000000, -13.500000) " x="617" y="3" width="26" height="21"></rect>
+        </g>
+        <g id="Workstation-Labels" sketch:type="MSLayerGroup" transform="translate(82.000000, 150.000000)" font-weight="normal" font-family="Helvetica" fill="#000000" sketch:alignment="middle" font-size="10">
+            <text id="W5" sketch:type="MSTextLayer">
+                <tspan x="3" y="235">W5</tspan>
+            </text>
+            <text id="W1" sketch:type="MSTextLayer">
+                <tspan x="3" y="169">W1</tspan>
+            </text>
+            <text id="W3" sketch:type="MSTextLayer">
+                <tspan x="3" y="190">W3</tspan>
+            </text>
+            <text id="W4" sketch:type="MSTextLayer">
+                <tspan x="30" y="190">W4</tspan>
+            </text>
+            <text id="W2" sketch:type="MSTextLayer">
+                <tspan x="30" y="169">W2</tspan>
+            </text>
+            <text id="W6" sketch:type="MSTextLayer">
+                <tspan x="30" y="235">W6</tspan>
+            </text>
+            <text id="W7" sketch:type="MSTextLayer">
+                <tspan x="57" y="235">W7</tspan>
+            </text>
+            <text id="W8" sketch:type="MSTextLayer">
+                <tspan x="3" y="257">W8</tspan>
+            </text>
+            <text id="W11" sketch:type="MSTextLayer">
+                <tspan x="0" y="294">W11</tspan>
+            </text>
+            <text id="W9" sketch:type="MSTextLayer">
+                <tspan x="30" y="257">W9</tspan>
+            </text>
+            <text id="W10" sketch:type="MSTextLayer">
+                <tspan x="54" y="257">W10</tspan>
+            </text>
+            <text id="W12" sketch:type="MSTextLayer">
+                <tspan x="27" y="294">W12</tspan>
+            </text>
+            <text id="W13" sketch:type="MSTextLayer">
+                <tspan x="54" y="294">W13</tspan>
+            </text>
+            <text id="E1" sketch:type="MSTextLayer">
+                <tspan x="518" y="198">E1</tspan>
+            </text>
+            <text id="E2" sketch:type="MSTextLayer">
+                <tspan x="545" y="198">E2</tspan>
+            </text>
+            <text id="E3" sketch:type="MSTextLayer">
+                <tspan x="572" y="198">E3</tspan>
+            </text>
+            <text id="E4" sketch:type="MSTextLayer">
+                <tspan x="518" y="233">E4</tspan>
+            </text>
+            <text id="E5" sketch:type="MSTextLayer">
+                <tspan x="545" y="233">E5</tspan>
+            </text>
+            <text id="E6" sketch:type="MSTextLayer">
+                <tspan x="572" y="233">E6</tspan>
+            </text>
+            <text id="E7" sketch:type="MSTextLayer">
+                <tspan x="518" y="255">E7</tspan>
+            </text>
+            <text id="E8" sketch:type="MSTextLayer">
+                <tspan x="545" y="255">E8</tspan>
+            </text>
+            <text id="E9" sketch:type="MSTextLayer">
+                <tspan x="572" y="255">E9</tspan>
+            </text>
+            <text id="E10" sketch:type="MSTextLayer">
+                <tspan x="515" y="289">E10</tspan>
+            </text>
+            <text id="E11" sketch:type="MSTextLayer">
+                <tspan x="542" y="289">E11</tspan>
+            </text>
+            <text id="E12" sketch:type="MSTextLayer">
+                <tspan x="569" y="289">E12</tspan>
+            </text>
+            <text id="A3" sketch:type="MSTextLayer">
+                <tspan x="621.468121" y="10">A3</tspan>
+            </text>
+            <text id="A1" sketch:type="MSTextLayer">
+                <tspan x="577.468121" y="10">A1</tspan>
+            </text>
+            <text id="A2" sketch:type="MSTextLayer">
+                <tspan x="599.468121" y="10">A2</tspan>
+            </text>
+        </g>
+        <g id="CLA-Walls" sketch:type="MSLayerGroup" transform="translate(0.000000, 113.000000)" stroke="#000000">
+            <path d="M59.16553,192.15723 L78.5000007,189.5" id="Shape" sketch:type="MSShapeGroup"></path>
+            <path d="M182.48877,234 L182.469241,209.794653 L182.454885,192 L143.084741,192 L133,192" id="Shape" sketch:type="MSShapeGroup"></path>
+            <path d="M318.74463,233 L318.74463,191.623047 L347.89941,191.623047" id="Shape" sketch:type="MSShapeGroup"></path>
+            <path d="M374.20898,191.623047 L426.74414,191.623047 L426.74414,232.585534" id="Shape" sketch:type="MSShapeGroup"></path>
+            <path d="M576.5,198.71875 L563,198.71875 L563,232.41699" id="Shape" sketch:type="MSShapeGroup"></path>
+            <path d="M613.0625,198 L593.5,198" id="Shape" sketch:type="MSShapeGroup"></path>
+            <path d="M590.5,161 L586.03125,161" id="Shape" sketch:type="MSShapeGroup"></path>
+            <path d="M613.21875,161 L608.5,161" id="Shape" sketch:type="MSShapeGroup"></path>
+            <path d="M573.64941,372 L611.83496,372" id="Shape" sketch:type="MSShapeGroup"></path>
+            <path d="M0,80 L41,80 L41,0" id="Shape" sketch:type="MSShapeGroup"></path>
+            <path d="M41,192 L41,108 L39.1317266,108 C26.0878177,108.000004 0,108 0,108" id="Shape" sketch:type="MSShapeGroup"></path>
+        </g>
+        <g id="CLA-Labels" sketch:type="MSLayerGroup" transform="translate(0.000000, -13.000000)" font-family="Helvetica" fill="#000000" font-weight="normal">
+            <text id="College-of-Liberal-Arts---Fourth-Floor" sketch:type="MSTextLayer" font-size="18">
+                <tspan x="0" y="87">College of Liberal Arts - Fourth Floor</tspan>
+            </text>
+            <text id="CLA" sketch:type="MSTextLayer" font-size="58">
+                <tspan x="0" y="57">CLA</tspan>
+            </text>
+        </g>
+        <g id="Students" sketch:type="MSLayerGroup" transform="translate(205.000000, 110.000000)" font-size="9" font-family="Helvetica" fill="#000000" font-weight="normal">
+            <text id="W1" sketch:type="MSTextLayer">
+                <tspan x="0" y="9">W1</tspan>
+                <tspan x="0" y="20">W2</tspan>
+                <tspan x="0" y="31">W3</tspan>
+                <tspan x="0" y="42">W4</tspan>
+                <tspan x="0" y="53">W5</tspan>
+                <tspan x="0" y="64">W6</tspan>
+                <tspan x="0" y="75">W7</tspan>
+                <tspan x="0" y="86">W8</tspan>
+                <tspan x="0" y="97">W9</tspan>
+                <tspan x="0" y="108">W10</tspan>
+                <tspan x="0" y="119">W11</tspan>
+                <tspan x="0" y="130">W12</tspan>
+                <tspan x="0" y="141">W13</tspan>
+            </text>
+            <text id="{{W1}}" sketch:type="MSTextLayer">
+                <tspan x="25" y="9">{{W1}}</tspan>
+                <tspan x="25" y="20">{{W2}}</tspan>
+                <tspan x="25" y="31">{{W3}}</tspan>
+                <tspan x="25" y="42">{{W4}}</tspan>
+                <tspan x="25" y="53">{{W5}}</tspan>
+                <tspan x="25" y="64">{{W6}}</tspan>
+                <tspan x="25" y="75">{{W7}}</tspan>
+                <tspan x="25" y="86">{{W8}}</tspan>
+                <tspan x="25" y="97">{{W9}}</tspan>
+                <tspan x="25" y="108">{{W10}}</tspan>
+                <tspan x="25" y="119">{{W11}}</tspan>
+                <tspan x="25" y="130">{{W12}}</tspan>
+                <tspan x="25" y="141">{{W13}}</tspan>
+            </text>
+            <text id="E1" sketch:type="MSTextLayer">
+                <tspan x="153" y="9">E1</tspan>
+                <tspan x="153" y="20">E2</tspan>
+                <tspan x="153" y="31">E3</tspan>
+                <tspan x="153" y="42">E4</tspan>
+                <tspan x="153" y="53">E5</tspan>
+                <tspan x="153" y="64">E6</tspan>
+                <tspan x="153" y="75">E7</tspan>
+                <tspan x="153" y="86">E8</tspan>
+                <tspan x="153" y="97">E9</tspan>
+                <tspan x="153" y="108">E10</tspan>
+                <tspan x="153" y="119">E11</tspan>
+                <tspan x="153" y="130">E12</tspan>
+            </text>
+            <text id="{{E1}}" sketch:type="MSTextLayer">
+                <tspan x="178" y="9">{{E1}}</tspan>
+                <tspan x="178" y="20">{{E2}}</tspan>
+                <tspan x="178" y="31">{{E3}}</tspan>
+                <tspan x="178" y="42">{{E4}}</tspan>
+                <tspan x="178" y="53">{{E5}}</tspan>
+                <tspan x="178" y="64">{{E6}}</tspan>
+                <tspan x="178" y="75">{{E7}}</tspan>
+                <tspan x="178" y="86">{{E8}}</tspan>
+                <tspan x="178" y="97">{{E9}}</tspan>
+                <tspan x="178" y="108">{{E10}}</tspan>
+                <tspan x="178" y="119">{{E11}}</tspan>
+                <tspan x="178" y="130">{{E12}}</tspan>
+            </text>
+            <text id="A1" sketch:type="MSTextLayer">
+                <tspan x="408" y="76">A1</tspan>
+                <tspan x="408" y="87">A2</tspan>
+                <tspan x="408" y="98">A3</tspan>
+            </text>
+            <text id="{{A1}}" sketch:type="MSTextLayer">
+                <tspan x="426" y="76">{{A1}}</tspan>
+                <tspan x="426" y="87">{{A2}}</tspan>
+                <tspan x="426" y="98">{{A3}}</tspan>
+            </text>
+        </g>
+    </g>
+</svg>
