@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg width="747px" height="527px" viewBox="0 0 747 527" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+<svg width="747px" height="530px" viewBox="0 0 747 530" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
     <title>map</title>
     <description>Created with Sketch (http://www.bohemiancoding.com/sketch)</description>
     <defs></defs>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
-        <g id="Offices-Shapes" sketch:type="MSLayerGroup" transform="translate(0.000000, 58.000000)" stroke="#000000">
+        <g id="Offices-Shapes" sketch:type="MSLayerGroup" transform="translate(0.000000, 61.000000)" stroke="#000000">
             <path d="M746.07715,242.90234 L694.98047,242.90234 L694.98047,254.24707 L614.0127,254.24707 L614.0127,165.2832 L746.07715,165.2832 L746.07715,242.90234 Z M746.07715,242.90234" id="Shape" sketch:type="MSShapeGroup"></path>
             <path d="M746.07715,467.79492 L666.66895,467.79492 L666.66895,412.77734 L688.78711,412.77734 L688.78711,420.3418 L746.07715,420.3418 L746.07715,467.79492 Z M746.07715,467.79492" id="Shape" sketch:type="MSShapeGroup"></path>
             <rect d="M614.4873,412.77734 L614.4873,467.79492 L663.64453,467.79492 L663.64453,412.77734 L614.4873,412.77734 Z M614.4873,412.77734" id="Rectangle" sketch:type="MSShapeGroup" x="614.4873" y="412.77734" width="49.15723" height="55.01758"></rect>
@@ -47,7 +47,7 @@
             <rect d="M508.23047,342.44434 L508.23047,391.60254 L563.43945,391.60254 L563.43945,342.44434 L508.23047,342.44434 Z M508.23047,342.44434" id="Rectangle" sketch:type="MSShapeGroup" x="508.23047" y="342.44434" width="55.20898" height="49.1582"></rect>
             <rect d="M341.85352,323.91699 L341.85352,391.60254 L427.31153,391.60254 L427.31153,323.91699 L341.85352,323.91699 Z M341.85352,323.91699" id="Rectangle" sketch:type="MSShapeGroup" x="341.85352" y="323.91699" width="85.45801" height="67.68555"></rect>
         </g>
-        <g id="Offices-Labels" sketch:type="MSLayerGroup" transform="translate(2.000000, 69.000000)" font-weight="normal" font-family="Helvetica" fill="#000000">
+        <g id="Offices-Labels" sketch:type="MSLayerGroup" transform="translate(2.000000, 72.000000)" font-weight="normal" font-family="Helvetica" fill="#000000">
             <text id="4.422" sketch:type="MSTextLayer" font-size="9">
                 <tspan x="76" y="67">4.422</tspan>
                 <tspan x="76" y="78">Computational</tspan>
@@ -203,7 +203,7 @@
                 <tspan x="688.820312" y="438">England</tspan>
             </text>
         </g>
-        <g id="Workstation-Shapes" sketch:type="MSLayerGroup" transform="translate(79.000000, 142.000000)" stroke="#000000">
+        <g id="Workstation-Shapes" sketch:type="MSLayerGroup" transform="translate(79.000000, 145.000000)" stroke="#000000">
             <rect d="M2.91525149,229 L0,229 L0,250 L26,250 L26,229 L2.91525149,229 Z M2.91525149,229" id="Rectangle-65" sketch:type="MSShapeGroup" x="0" y="229" width="26" height="21"></rect>
             <rect d="M56.9152515,251 L54,251 L54,272 L80,272 L80,251 L56.9152515,251 Z M56.9152515,251" id="Rectangle-65" sketch:type="MSShapeGroup" x="54" y="251" width="26" height="21"></rect>
             <rect d="M29.9152515,251 L27,251 L27,272 L53,272 L53,251 L29.9152515,251 Z M29.9152515,251" id="Rectangle-65" sketch:type="MSShapeGroup" x="27" y="251" width="26" height="21"></rect>
@@ -233,7 +233,7 @@
             <rect d="M597.915251,3 L595,3 L595,24 L621,24 L621,3 L597.915251,3 Z M597.915251,3" id="Rectangle-65-copy-3" sketch:type="MSShapeGroup" transform="translate(608.000000, 13.500000) rotate(-270.000000) translate(-608.000000, -13.500000) " x="595" y="3" width="26" height="21"></rect>
             <rect d="M619.915251,3 L617,3 L617,24 L643,24 L643,3 L619.915251,3 Z M619.915251,3" id="Rectangle-65-copy-4" sketch:type="MSShapeGroup" transform="translate(630.000000, 13.500000) rotate(-270.000000) translate(-630.000000, -13.500000) " x="617" y="3" width="26" height="21"></rect>
         </g>
-        <g id="Workstation-Labels" sketch:type="MSLayerGroup" transform="translate(82.000000, 150.000000)" font-weight="normal" font-family="Helvetica" fill="#000000" sketch:alignment="middle" font-size="10">
+        <g id="Workstation-Labels" sketch:type="MSLayerGroup" transform="translate(82.000000, 153.000000)" font-weight="normal" font-family="Helvetica" fill="#000000" sketch:alignment="middle" font-size="10">
             <text id="W5" sketch:type="MSTextLayer">
                 <tspan x="3" y="235">W5</tspan>
             </text>
@@ -319,7 +319,7 @@
                 <tspan x="599.468121" y="10">A2</tspan>
             </text>
         </g>
-        <g id="CLA-Walls" sketch:type="MSLayerGroup" transform="translate(0.000000, 113.000000)" stroke="#000000">
+        <g id="CLA-Walls" sketch:type="MSLayerGroup" transform="translate(0.000000, 116.000000)" stroke="#000000">
             <path d="M59.16553,192.15723 L78.5000007,189.5" id="Shape" sketch:type="MSShapeGroup"></path>
             <path d="M182.48877,234 L182.469241,209.794653 L182.454885,192 L143.084741,192 L133,192" id="Shape" sketch:type="MSShapeGroup"></path>
             <path d="M318.74463,233 L318.74463,191.623047 L347.89941,191.623047" id="Shape" sketch:type="MSShapeGroup"></path>
@@ -336,11 +336,14 @@
             <text id="College-of-Liberal-Arts---Fourth-Floor" sketch:type="MSTextLayer" font-size="18">
                 <tspan x="0" y="87">College of Liberal Arts - Fourth Floor</tspan>
             </text>
+            <text id="http://linguistics.g" sketch:type="MSTextLayer" font-size="10">
+                <tspan x="0" y="103">http://linguistics.github.io/cla/map.html</tspan>
+            </text>
             <text id="CLA" sketch:type="MSTextLayer" font-size="58">
                 <tspan x="0" y="57">CLA</tspan>
             </text>
         </g>
-        <g id="Students" sketch:type="MSLayerGroup" transform="translate(205.000000, 110.000000)" font-size="9" font-family="Helvetica" fill="#000000" font-weight="normal">
+        <g id="Students" sketch:type="MSLayerGroup" transform="translate(205.000000, 113.000000)" font-size="9" font-family="Helvetica" fill="#000000" font-weight="normal">
             <text id="W1" sketch:type="MSTextLayer">
                 <tspan x="0" y="9">W1</tspan>
                 <tspan x="0" y="20">W2</tspan>

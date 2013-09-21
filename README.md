@@ -20,8 +20,10 @@ students.csv: UTF-8 Unicode text
 **Rendering and Printing**
 
 1. Commit and push all changes made above:
+
 ```sh
 git push
 ```
+
 2. Open [linguistics.github.io/cla/map.html](http://linguistics.github.io/cla/map.html) in [Chrome](https://www.google.com/chrome/).
 3. Print to PDF or a physical destination. By default, Chrome should use a landscape layout and minimal margins.
