@@ -9,7 +9,7 @@
   }
   @page {
     size: landscape;
-    /* auto vertical margin doesn't work on the body so put it here */
+    /* auto vertical margins don't work on the body so put it here */
     margin: auto 0;
   }
   @media screen {
@@ -17,13 +17,13 @@
       background-color: #FDFDFD;
     }
     .instructions {
-      margin-bottom: 2em;
       display: none;
+      margin-bottom: 2em;
       border: 1px solid #DFDFDF;
       background-color: white;
-      font-size: 80%;
+      font-size: 90%;
     }
-    .instructions a {
+    .instructions > a {
       display: block;
       text-align: right;
       background-color: #F9F9F9;
@@ -31,7 +31,7 @@
       padding: .5ex 1ex;
       text-decoration: none;
     }
-    .instructions a:hover {
+    .instructions > a:hover {
       background-color: #EFEFEF;
       color: black
     }
@@ -71,7 +71,11 @@
         <li>Choose File -> Print</li>
       </ol>
       <p>You can now select a printer as the destination and click <span class="button">Print</span>,
-        or choose the "Save as PDF" destination and click <span class="button">Save</span>.</p>
+        or choose the "Save as PDF" destination and click <span class="button">Save</span>.
+      </p>
+      <p>
+        See <a href="https://github.com/linguistics/cla">github.com/linguistics/cla</a> for instructions on how to make updates.
+      </p>
       <h3><i>This box will not be printed.</i></h3>
     </div>
   </section>
@@ -99,7 +103,7 @@
   });
   if (window.location.hash != '#print') {
     $('.instructions').show();
-    $('.instructions a').on('click', function() {
+    $('.instructions > a').on('click', function() {
       $('.instructions').slideUp(200);
     })
   }
