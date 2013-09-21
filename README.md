@@ -13,17 +13,17 @@
 2. Make your changes
 3. Save with `utf-8` encoding. You can ensure that it was saved correctly by the case by running `file students.csv` at the command line, which should return:
 
-```sh
-students.csv: UTF-8 Unicode text
-```
+> students.csv: UTF-8 Unicode text
 
 **Rendering and Printing**
 
 1. Commit and push all changes made above:
 
 ```sh
+git commit -a -m "Updated with new students"  # (for example)
 git push
 ```
 
 2. Open [linguistics.github.io/cla/map.html](http://linguistics.github.io/cla/map.html) in [Chrome](https://www.google.com/chrome/).
-3. Print to PDF or a physical destination. By default, Chrome should use a landscape layout and minimal margins.
+3. Print to PDF or a physical destination.
+    * By default, Chrome should use a landscape layout and minimal margins.
