@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Linguistics Department Workstations</title>
+  <link rel="stylesheet" type="text/css" href="static/site.css" media="all" />
+  <script src="static/lib/underscore.min.js"></script>
+  <script src="static/lib/angular.min.js"></script>
+  <script src="static/lib/ngStorage.min.js"></script>
+  <script src="static/app.js"></script>
+</head>
+<body ng-app="adminApp" ng-controller="Ctrl" class="admin">
+  <section>
+    <h3>All students</h3>
+    <p>all active students</p>
+    <ul class="names">
+      <li ng-repeat="student in students">{{student.name}}</li>
+    </ul>
+  </section>
+  <section>
+    <h3>Incumbents</h3>
+    <p>all students with a workstation</p>
+    <ul class="names">
+      <li ng-repeat="student in students | where:{incumbent:true}">{{student.name}}</li>
+    </ul>
+  </section>
+  <section>
+    <h3>Privileged</h3>
+    <p>students who need workstations</p>
+    <textarea class="names" separator="'\n'" ng-model="$storage.privileged"></textarea>
+    <div ng-show="missing">
+      <h3>Missing</h3>
+      <p>names that don't match up</p>
+      <ul class="names">
+        <li ng-repeat="name in missing track by $index">{{name}}</li>
+      </ul>
+    </div>
+  </section>
+  <section>
+    <h3>➔</h3>
+  </section>
+  <section>
+    <h3>Itinerants</h3>
+    <p>may need to move out</p>
+    <ul class="names">
+      <li ng-repeat="student in students | where:{itinerant:true}">{{student.name}}</li>
+    </ul>
+  </section>
+  <section>
+    <h3>Residents</h3>
+    <p>will stay in their current place</p>
+    <ul class="names">
+      <li ng-repeat="student in students | where:{resident:true}">{{student.name}}</li>
+    </ul>
+  </section>
+  <section>
+    <h3>Incoming</h3>
+    <p>need a place to move into</p>
+    <ul class="names">
+      <li ng-repeat="student in students | where:{incoming:true}">{{student.name}}</li>
+    </ul>
+  </section>
+
+  <hr />
+
+  <section>
+    <h3>Homeless (unprivileged)</h3>
+    <p>send these guys emails</p>
+    <select ng-model="$storage.studentFormat">
+      <option value="name">name</option>
+      <option value="email">email</option>
+      <option value="both">"name" &lt;email&gt;,</option>
+    </select>
+    <ul class="names">
+      <li ng-repeat="student in students | where:{homeless:true}">
+        <span ng-if="$storage.studentFormat == 'name'">{{student.name}}</span>
+        <span ng-if="$storage.studentFormat == 'email'">{{student.email}}</span>
+        <span ng-if="$storage.studentFormat == 'both'">"{{student.name}}" &lt;{{student.email}}&gt;,</span>
+      </li>
+    </ul>
+  </section>
+  <section>
+
+</body>
+</html>
