@@ -58,8 +58,9 @@ body {
 }
 .admin p {
   margin: .5ex 0;
-  font-size: 90%;
-  color: #555;
+  font-size: 75%;
+  color: #333;
+  max-width: 175px;
 }
 .admin h3 {
   margin: .5ex 0;
@@ -86,6 +87,5 @@ body {
   font-size: 11px;
 }
 .admin textarea {
-  height: 400px;
-  width: 97%;
+  max-width: 175px;
 }

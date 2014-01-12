@@ -51,10 +51,18 @@ admin_app.filter('where', function() {
   return _.where;
 });
 
+admin_app.filter('url', function() {
+  return window.encodeURIComponent;
+});
+
 admin_app.controller('Ctrl', function($scope, $http, $localStorage) {
   $scope.students = [];
   $scope.recompute = function() {
-    $scope.missing = $scope.$storage.privileged.filter(function(name) {
+    $scope.privileged_missing = $scope.$storage.privileged.filter(function(name) {
+      return _.findWhere($scope.students, {name: name}) === undefined;
+    });
+
+    $scope.winners_missing = $scope.$storage.winners.filter(function(name) {
       return _.findWhere($scope.students, {name: name}) === undefined;
     });
 
@@ -63,16 +71,20 @@ admin_app.controller('Ctrl', function($scope, $http, $localStorage) {
       s.privileged = $scope.$storage.privileged.indexOf(s.name) != -1;
       // `itinerants = incumbents - privileged` (students who may need to move out)
       s.itinerant = s.incumbent && !s.privileged;
-      // `residents = incumbents ∩ privileged` (these guys aren't going to move, and their workstations will not go up for grabs)
+      // `residents = incumbents ∩ privileged`
+      // (these guys aren't going to move, and their workstations will not go up for grabs)
       s.resident = s.incumbent && s.privileged;
-      // `incoming = privileged - incumbents` (students who will for sure get a workstation but we don't yet know where)
+      // `incoming = privileged - incumbents`
+      // (students who will for sure get a workstation but we don't yet know where)
       s.incoming = s.privileged && !s.incumbent;
       // `homeless = privileged'` (the complement of `privileged`)
       s.homeless = !s.privileged;
+      s.winner = $scope.$storage.winners.indexOf(s.name) != -1;
     });
   };
   $scope.$watch('students', $scope.recompute);
   $scope.$watch('$storage.privileged', $scope.recompute);
+  $scope.$watch('$storage.winners', $scope.recompute);
 
   $http.get('students.tsv').then(function(res) {
     $scope.students = parseSV(res.data);
@@ -83,8 +95,12 @@ admin_app.controller('Ctrl', function($scope, $http, $localStorage) {
   // init localStorage
   $scope.$storage = $localStorage.$default({
     studentFormat: 'name',
-    privileged: []
+    privileged: [],
+    winners: []
   });
+
+  // var url = Url.parse(location);
+  // console.log(url.query);
 });
 
 // like ng-link, but bi-directional
