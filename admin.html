@@ -32,7 +32,6 @@
     </textarea>
 
     <div ng-show="privileged_missing">
-      <h3>Missing</h3>
       <p>names that don't match up</p>
       <ul class="names">
         <li ng-repeat="name in privileged_missing track by $index">{{name}}</li>
@@ -63,7 +62,7 @@
     </ul>
 
     <h3>Evictions</h3>
-    <p>do need to move out (were not awarded workstation via application)</p>
+    <p>need to move out (were not awarded workstation via application)</p>
     <ul class="names">
       <li ng-repeat="student in students | where:{itinerant:true,winner:false}">{{student.name}}</li>
     </ul>
@@ -93,20 +92,22 @@
     </textarea>
 
     <div ng-show="winners_missing">
-      <h3>Missing</h3>
       <p>names that don't match up</p>
       <ul class="names">
         <li ng-repeat="name in winners_missing track by $index">{{name}}</li>
       </ul>
     </div>
 
-    <h3>Priorities</h3>
-    <p>there are 28 workstations, and {{$storage.privileged.length}} privileged,
-      which leaves space for {{28 - $storage.privileged.length}} winner(s).</p>
+    <label>
+      <h5>Number of workstations:</h5>
+      <input ng-model="$storage.nworkstations" />
+    </label>
+    <p>{{$storage.nworkstations}} workstations - {{$storage.privileged.length}} privileged =
+      space for {{$storage.nworkstations - $storage.privileged.length}} winner(s).</p>
   </section>
 
   <footer>
-    <a ng-href="?privileged={{$storage.privileged.join('\n') | url}}&winners={{$storage.winners.join('\n') | url}}">Link</a>
+    <a ng-href="?privileged={{$storage.privileged.join('\n') | encode}}&winners={{$storage.winners.join('\n') | encode}}">Link</a>
   </footer>
 
 </body>

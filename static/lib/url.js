@@ -60,7 +60,7 @@
     var anchor = document.createElement('a');
     anchor.href = string;
     var urlObj = new Url();
-    urlObj.protocol = anchor.protocol;
+    urlObj.protocol = anchor.protocol.replace(/:+$/, '');
     urlObj.hostname = anchor.hostname;
     urlObj.port = anchor.port;
     urlObj.path = anchor.pathname;

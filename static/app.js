@@ -51,7 +51,7 @@ admin_app.filter('where', function() {
   return _.where;
 });
 
-admin_app.filter('url', function() {
+admin_app.filter('encode', function() {
   return window.encodeURIComponent;
 });
 
@@ -96,14 +96,27 @@ admin_app.controller('Ctrl', function($scope, $http, $localStorage) {
   $scope.$storage = $localStorage.$default({
     studentFormat: 'name',
     privileged: [],
-    winners: []
+    winners: [],
+    nworkstations: 28
   });
 
-  // var url = Url.parse(location);
-  // console.log(url.query);
+  var url = Url.parse(location);
+  var changed = !!(url.query.privileged || url.query.winners);
+  if (url.query.privileged) {
+    $scope.$storage.privileged = url.query.privileged.split(/\n/);
+    delete url.query.privileged;
+  }
+  if (url.query.winners) {
+    $scope.$storage.winners = url.query.winners.split(/\n/);
+    delete url.query.winners;
+  }
+  if (changed) {
+    // setting window.location occurs before the localStorage flushes, so we can't do that.
+    history.replaceState(null, '', url.toString());
+  }
 });
 
-// like ng-link, but bi-directional
+// like ng-list, but bi-directional
 admin_app.directive('separator', function() {
   return {
     scope: {
@@ -112,7 +125,8 @@ admin_app.directive('separator', function() {
     require: 'ngModel',
     link: function(scope, el, attrs, ngModel) {
       ngModel.$parsers.push(function(string) {
-        // console.log("trying to parse", string);
+        // javascript doesn't so ''.split('x') correctly (should be [], is empty string)
+        if (string === '') return [];
         return string.split(scope.separator);
       });
       ngModel.$formatters.push(function(array) {

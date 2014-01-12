@@ -62,10 +62,7 @@ body {
   color: #333;
   max-width: 175px;
 }
-.admin h3 {
-  margin: .5ex 0;
-}
-.admin h4 {
+.admin h3, .admin h4, .admin h5 {
   margin: .5ex 0;
 }
 .admin .names {
