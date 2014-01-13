@@ -1,4 +1,4 @@
-// "use strict"; /*jslint indent: 2 */ /*globals _, angular */
+//"use strict"; /*jslint indent: 2 */ /*globals _, angular */
 function parseSV(text) {
   var lines = text.split('\n');
   var FS = (lines[0].split('\t').length > lines[0].split(',').length) ? '\t' : ',';
@@ -11,15 +11,61 @@ function parseSV(text) {
   });
 }
 
+
+var app = angular.module('app', ['ngStorage']);
+
+// reusables:
+
+app.filter('where', function() {
+  // return function(list, properties) { return _.where(list, properties); };
+  return _.where;
+});
+
+app.filter('encode', function() {
+  return window.encodeURIComponent;
+});
+
+app.directive('separator', function() {
+  // like ng-list, but bi-directional
+  // http://docs.angularjs.org/api/ng.directive:ngList
+  return {
+    scope: {
+      separator: '='
+    },
+    require: 'ngModel',
+    link: function(scope, el, attrs, ngModel) {
+      ngModel.$parsers.push(function(string) {
+        // javascript doesn't so ''.split('x') correctly (should be [], is empty string)
+        if (string === '') return [];
+        return string.split(scope.separator);
+      });
+      ngModel.$formatters.push(function(array) {
+        return (array || []).join(scope.separator);
+      });
+    }
+  };
+});
+
+app.directive('contacts', function() {
+  return {
+    restrict: 'E',
+    templateUrl: 'templates/contacts.html',
+    scope: {
+      contacts: '=ngModel',
+      predicate: '=where',
+      format: '=format'
+    },
+    replace: true
+  };
+});
+
 // map controllers
 
-var map_app = angular.module('mapApp', []);
-
-map_app.controller('Ctrl', function($scope) {
+app.controller('MapCtrl', function($scope) {
   $scope.print = window.location.hash == '#print';
 });
 
-map_app.directive('map', function($http, $q) {
+app.directive('map', function($http, $q) {
   return {
     restrict: 'E',
     link: function(scope, el, attrs) {
@@ -44,18 +90,7 @@ map_app.directive('map', function($http, $q) {
 
 // admin controllers
 
-var admin_app = angular.module('adminApp', ['ngStorage']);
-
-admin_app.filter('where', function() {
-  // return function(list, properties) { return _.where(list, properties); };
-  return _.where;
-});
-
-admin_app.filter('encode', function() {
-  return window.encodeURIComponent;
-});
-
-admin_app.controller('Ctrl', function($scope, $http, $localStorage) {
+app.controller('AdminCtrl', function($scope, $http, $localStorage) {
   $scope.students = [];
   $scope.recompute = function() {
     $scope.privileged_missing = $scope.$storage.privileged.filter(function(name) {
@@ -74,12 +109,12 @@ admin_app.controller('Ctrl', function($scope, $http, $localStorage) {
       // `residents = incumbents ∩ privileged`
       // (these guys aren't going to move, and their workstations will not go up for grabs)
       s.resident = s.incumbent && s.privileged;
-      // `incoming = privileged - incumbents`
-      // (students who will for sure get a workstation but we don't yet know where)
-      s.incoming = s.privileged && !s.incumbent;
       // `homeless = privileged'` (the complement of `privileged`)
       s.homeless = !s.privileged;
       s.winner = $scope.$storage.winners.indexOf(s.name) != -1;
+      // `incoming = (privileged + winner) - incumbents`
+      // (students who will for sure get a workstation but we don't yet know where)
+      s.incoming = (s.privileged || s.winner) && !s.incumbent;
     });
   };
   $scope.$watch('students', $scope.recompute);
@@ -114,24 +149,4 @@ admin_app.controller('Ctrl', function($scope, $http, $localStorage) {
     // setting window.location occurs before the localStorage flushes, so we can't do that.
     history.replaceState(null, '', url.toString());
   }
-});
-
-// like ng-list, but bi-directional
-admin_app.directive('separator', function() {
-  return {
-    scope: {
-      separator: '='
-    },
-    require: 'ngModel',
-    link: function(scope, el, attrs, ngModel) {
-      ngModel.$parsers.push(function(string) {
-        // javascript doesn't so ''.split('x') correctly (should be [], is empty string)
-        if (string === '') return [];
-        return string.split(scope.separator);
-      });
-      ngModel.$formatters.push(function(array) {
-        return (array || []).join(scope.separator);
-      });
-    }
-  };
 });

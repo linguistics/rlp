@@ -9,8 +9,8 @@ body{margin:.25in .375in 0}
 .instructions{display:none!important}}
 .admin section{display:inline-block;margin:5px;vertical-align:top}
 .admin p{margin:.5ex 0;font-size:75%;color:#333;max-width:175px}
-.admin h3,.admin h4,.admin h5{margin:.5ex 0}
-.admin .names{max-height:400px;overflow:auto;margin:.5ex 0;padding:2px 3px 3px;border:1px solid #777;color:#333}
+.admin h1,.admin h2,.admin h3,.admin h4,.admin h5,.admin h6{margin:.5ex 0}
+.admin textarea,.admin ul{box-sizing:border-box;max-height:400px;overflow:auto;margin:.5ex 0;padding:2px 3px 3px;border:1px solid #777;color:#333;font-family:"Lucida Grande",Arial,Verdana,sans-serif;font-size:11px}
 .admin ul{background-color:#EEE}
-.admin li{list-style-type:none;font-family:"Lucida Grande",Arial,Verdana,sans-serif;font-size:11px}
+.admin ul li{list-style-type:none}
 .admin textarea{max-width:175px}

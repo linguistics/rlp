@@ -1,0 +1,8 @@
+<ul>
+  <li ng-repeat="contact in contacts | where:predicate" ng-switch="format">
+    <span ng-switch-default>{{contact.name}}</span>
+    <span ng-switch-when="email">{{contact.email}}</span>
+    <span ng-switch-when="both">"{{contact.name}}" &lt;{{contact.email}}&gt;,</span>
+    <span ng-switch-when="workstation">{{contact.name}} ({{contact.workstation || 'none'}})</span>
+  </li>
+</ul>

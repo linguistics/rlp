@@ -9,31 +9,49 @@
   <script src="static/lib/ngStorage.min.js"></script>
   <script src="static/lib/url.js"></script>
   <script src="static/app.js"></script>
+  <!-- Dev: http://ghkl/linguistics-cla/admin.html -->
 </head>
-<body ng-app="adminApp" ng-controller="Ctrl" class="admin">
+<body ng-app="app" ng-controller="AdminCtrl" class="admin">
+  <header>
+    <table>
+      <tr>
+        <td>Format:</td>
+        <td>
+          <select ng-model="$storage.contact_format">
+            <option value="name">name</option>
+            <option value="email">email</option>
+            <option value="both">"name" &lt;email&gt;,</option>
+            <option value="workstation">name (workstation)</option>
+          </select>
+        </td>
+      </tr>
+      <tr>
+        <td>Number of workstations:</td>
+        <td><input ng-model="$storage.nworkstations" /></td>
+      </tr>
+    </table>
+  </header>
+
   <section ng-if="all">
     <h3>All students</h3>
     <p>all active students</p>
-    <ul class="names">
-      <li ng-repeat="student in students">{{student.name}}</li>
-    </ul>
+    <!-- <students ng-model="" where="{}" /> -->
+    <contacts ng-model="students"></contacts>
   </section>
   <section>
     <h3>Incumbents</h3>
     <p>all students with a workstation</p>
-    <ul class="names">
-      <li ng-repeat="student in students | where:{incumbent:true}">{{student.name}}</li>
-    </ul>
+    <contacts ng-model="students" where="{incumbent:true}" format="$storage.contact_format"></contacts>
   </section>
   <section>
     <h3>Privileged</h3>
     <p>students who need workstations</p>
-    <textarea class="names" separator="'\n'" ng-model="$storage.privileged" style="height: 400px">
+    <textarea separator="'\n'" ng-model="$storage.privileged" style="height: 400px">
     </textarea>
 
     <div ng-show="privileged_missing">
       <p>names that don't match up</p>
-      <ul class="names">
+      <ul>
         <li ng-repeat="name in privileged_missing track by $index">{{name}}</li>
       </ul>
     </div>
@@ -44,70 +62,47 @@
   <section>
     <h3>Residents</h3>
     <p>will stay in their current place</p>
-    <ul class="names">
-      <li ng-repeat="student in students | where:{resident:true}">{{student.name}}</li>
-    </ul>
+    <contacts ng-model="students" where="{resident:true}" format="$storage.contact_format"></contacts>
 
-    <h3>Incoming</h3>
-    <p>need a place to move into</p>
-    <ul class="names">
-      <li ng-repeat="student in students | where:{incoming:true}">{{student.name}}</li>
-    </ul>
-  </section>
-  <section>
-    <h3>Itinerants</h3>
+    <!-- <h3>Itinerants</h3>
     <p>may need to move out</p>
-    <ul class="names">
-      <li ng-repeat="student in students | where:{itinerant:true}">{{student.name}}</li>
-    </ul>
-
-    <h3>Evictions</h3>
-    <p>need to move out (were not awarded workstation via application)</p>
-    <ul class="names">
-      <li ng-repeat="student in students | where:{itinerant:true,winner:false}">{{student.name}}</li>
-    </ul>
+    <contacts ng-model="students" where="{itinerant:true}" format="$storage.contact_format"></contacts> -->
   </section>
-
   <section>
     <h3>Homeless</h3>
-    <p>= unprivileged (send these guys emails)</p>
-    <select ng-model="$storage.studentFormat">
-      <option value="name">name</option>
-      <option value="email">email</option>
-      <option value="both">"name" &lt;email&gt;,</option>
-    </select>
-    <ul class="names">
-      <li ng-repeat="student in students | where:{homeless:true}">
-        <span ng-if="$storage.studentFormat == 'name'">{{student.name}}</span>
-        <span ng-if="$storage.studentFormat == 'email'">{{student.email}}</span>
-        <span ng-if="$storage.studentFormat == 'both'">"{{student.name}}" &lt;{{student.email}}&gt;,</span>
-      </li>
-    </ul>
-  </section>
+    <p>unprivileged (must apply for workstations)</p>
+    <contacts ng-model="students" where="{homeless:true}" format="$storage.contact_format"></contacts>
 
-  <section>
+
     <h3>Winners</h3>
-    <p>application approved</p>
-    <textarea class="names" separator="'\n'" ng-model="$storage.winners" style="height: 200px">
-    </textarea>
+    <p>{{$storage.nworkstations}} workstations - {{$storage.privileged.length}} privileged =
+      space for {{$storage.nworkstations - $storage.privileged.length}} winner(s).</p>
+    <textarea separator="'\n'" ng-model="$storage.winners" style="height: 100px"></textarea>
 
     <div ng-show="winners_missing">
       <p>names that don't match up</p>
-      <ul class="names">
+      <ul>
         <li ng-repeat="name in winners_missing track by $index">{{name}}</li>
       </ul>
     </div>
+  </section>
 
-    <label>
-      <h5>Number of workstations:</h5>
-      <input ng-model="$storage.nworkstations" />
-    </label>
-    <p>{{$storage.nworkstations}} workstations - {{$storage.privileged.length}} privileged =
-      space for {{$storage.nworkstations - $storage.privileged.length}} winner(s).</p>
+  <section>
+    <h3>Evictions</h3>
+    <p>need to move out (were not awarded workstation via application)</p>
+    <contacts ng-model="students" where="{itinerant:true,winner:false}" format="$storage.contact_format"></contacts>
+
+    <h3>Incoming</h3>
+    <p>moving in</p>
+    <contacts ng-model="students" where="{incoming:true}" format="$storage.contact_format"></contacts>
   </section>
 
   <footer>
-    <a ng-href="?privileged={{$storage.privileged.join('\n') | encode}}&winners={{$storage.winners.join('\n') | encode}}">Link</a>
+    <h5>
+      <a ng-href="?privileged={{$storage.privileged.join('\n') | encode}}&winners={{$storage.winners.join('\n') | encode}}">
+        Link to current values
+      </a>
+    </h5>
   </footer>
 
 </body>

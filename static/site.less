@@ -57,16 +57,19 @@ body {
     margin: 5px;
     vertical-align: top;
   }
+  footer {
+  }
   p {
     margin: .5ex 0;
     font-size: 75%;
     color: #333;
     max-width: 175px;
   }
-  h3, h4, h5 {
+  h1, h2, h3, h4, h5, h6 {
     margin: .5ex 0;
   }
-  .names {
+  textarea, ul {
+    box-sizing: border-box;
     max-height: 400px;
     overflow: auto;
 
@@ -75,14 +78,14 @@ body {
 
     border: 1px solid #777;
     color: #333;
+    font-family: "Lucida Grande", Arial, Verdana, sans-serif;
+    font-size: 11px;
   }
   ul {
     background-color: #EEE;
-  }
-  li {
-    list-style-type: none;
-    font-family: "Lucida Grande", Arial, Verdana, sans-serif;
-    font-size: 11px;
+    li {
+      list-style-type: none;
+    }
   }
   textarea {
     max-width: 175px;
