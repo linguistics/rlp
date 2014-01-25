@@ -1,4 +1,4 @@
-//"use strict"; /*jslint indent: 2 */ /*globals _, angular */
+/*jslint browser: true, devel: true */ /*globals _, angular */
 function parseSV(text) {
   var lines = text.split('\n');
   var FS = (lines[0].split('\t').length > lines[0].split(',').length) ? '\t' : ',';
