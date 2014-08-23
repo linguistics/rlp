@@ -1,0 +1,15 @@
+Dear privileged linguistics grad students (fellowship recipients, TAs, and AIs),
+
+Management has automatically allotted you workstation space, but you do not currently have a specific workstation assigned to you.
+
+To select one, please follow these steps:
+
+1. View the workstation map at http://linguistics.github.io/cla/map
+
+2. Don't pick any of these:
+
+    [List of workstation occupied by the "residents" set]
+
+3. Decide which workstation you would like, and record it beside your name in the spreadsheet at [spreadsheet url]
+
+4. In case there are conflicts, also record your second and third preferences in subsequent columns

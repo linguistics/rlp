@@ -40,12 +40,15 @@ git push
     * Let `homeless = privileged'` (the complement of `privileged`)
 2. Send some emails:
     * Ask all of the `homeless` to apply for a workstation, if they want one.
-    * There are 25 workstations total. Select the top `25 - |privileged|` applicants, and call these `winners`.
-    * Add `winners ∩ itinerants` to the `residents`, and let `evictions = itinerants - winners`
-    * Ask the `incoming` which workstations they would like, from among the `evictions`
+    * There are currently 25 workstations total. Select the top `25 - |privileged|` applicants, and call these `winners`.
+    * Call the remainder of the applicants `rejections`, and inform them that they didn't make the cut.
+    * Add `winners ∩ itinerants` to the `residents`, and let `evictions = itinerants - winners` (which may overlap with the `rejections`)
+    * Ask the `incoming` which workstations they would like, from among the `evictions` (assuming that all workstations are currently occupied; if that's not the case, add the abandoned workstations to the `evictions` set)
     * If there are any `winners - itinerants`, let them choose among the workstations `evictions - incoming`
 3. If possible, go back in time a couple months and send some more emails:
     * Inform `evictions` that they may need to vacate their workstations, especially if they are going to be gone for the summer.
+
+See the examples in the [emails](emails/) directory for templates for these notifications.
 
 ### Prioritization
 
