@@ -11,7 +11,7 @@
 
 1. Open [`students.csv`](students.csv) in a unicode-friendly editor.
 2. Make your changes
-3. Save with `utf-8` encoding. You can ensure that it was saved correctly by the case by running `file students.csv` at the command line, which should return:
+3. Save with `utf-8` encoding. You can ensure that it was saved correctly by running `file students.csv` at the command line, which should return:
 
 > students.csv: UTF-8 Unicode text
 
@@ -102,4 +102,4 @@ E.g., **Fall 2013 workstation application** form had these fields:
 * Cardinality: Which side would prefer?
     - [ ] West
     - [ ] East
-* Rhetoric: Anything parting remarks?
+* Rhetoric: Any parting remarks?
