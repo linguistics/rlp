@@ -1,4 +1,4 @@
-name	email	workstation
+name	email	location
 Adam Tallman	ajrtallman@utexas.edu	E1
 Adan Francisco Pascual	adanfp@utexas.edu	
 Aimee Lawrence	a_meelynn@yahoo.com	
@@ -9,17 +9,13 @@ Brett Anderson	brett.w.anderson1@gmail.com	E7
 Christopher Brown	chrisbrown@utexas.edu	
 Cindy Blanco	cynthiapblanco@gmail.com	W8
 Cornelia Loos	cornelia.loos@utexas.edu	E12
-Daniel Valle Arevalo	davalle@utexas.edu	
+Daniel Valle Arevalo	davalle@utexas.edu	W3
 Elena Liskova	eliskova@utexas.edu	
 Eric Adell	adell@ku.edu	
-Eric Campbell	ericcampbell@utexas.edu 	
-Gabriela García Salido	ggsalido@gmail.com	
 Grace Neveu	gkneveu@gmail.com	E11
 Grant Delozier	grantdelozier@utexas.edu	
-Hilaria Cruz	layacruz@gmail.com	
 Jaime Perez Gonzalez	locosingo@hotmail.com	E6
 Jason Mielens	jmielens@utexas.edu	
-Jörn Klinger	klinger@utexas.edu	E9
 Joseph P Frazee	joseph.frazee@gmail.com	
 Jungsoo Kim	jungsookim@utexas.edu	W10
 Justin Cope	justin.cope@utexas.edu	W2
@@ -29,28 +25,45 @@ Juwon Lee	juwonlee@utexas.edu
 Kate Mesh	kate.a.mesh@gmail.com	E3
 Kyle Jerro	jerrokyle@gmail.com	W7
 Laura Faircloth	laura.faircloth1693@gmail.com	W12
-Lauren Terzenbach	lauren.terzenbach@gmail.com	E10
 Leah Geer	leah.geer@gmail.com	W1
-Leah Velleman	dvelleman@gmail.com	W4
-Luis Chacartegui Quetglas	luischq@gmail.com	
 Lynn Y Hou	lyshou@utexas.edu	
-Maria del Mar Bassa Vanrell	mmar.bvanrell@gmail.com	
 Natalia Bermudez	nbermudez10@gmail.com	
-Niamh Kelly	niamh.kelly@utexas.edu 	E4
 Qianping Gu	theresagqp@aliyun.com	E8
-Rachael Gilbert	rachaelgilbert@utexas.edu	
-Ryan Sullivant	iamsullivant@gmail.com	E5
-Simon Hafner	hafnersimon@gmail.com	W6
 So-Hee Kim	skim32@utexas.edu	
-Stacy Po-Ting Chen	ptchen@utexas.edu	
 Stephanie Villard	stephvillard@mail.utexas.edu	
 Tammi Stout	tamster1024@gmail.com	W13
 Telma Can Pixabaj	kaantelma@gmail.com	
-Tony Wright	tonywright@mail.utexas.edu	
 Vijay G John	kuaichik@gmail.com	
 Wikaliler Daniel Smith	wdsmith@utexas.edu	
 Zach Childers	zchilders@utexas.edu	W11
 Black Studies	ignore	A1
 Black Studies	ignore	A2
 Black Studies	ignore	A3
-Avani Gupta	ignore	W3
+Dr. Colin Bannard	bannard@utexas.edu	4.426
+		4.428
+Dr. Alex Teodorescu	alex.teodorescu@gmail.com	4.430
+Dr. Danny Law	dannylaw@austin.utexas.edu	4.432
+Dr. Steve Wechsler	wechsler@austin.utexas.edu	4.702
+Dr. Hans Kamp	hanskamp@austin.utexas.edu	4.704
+Dr. John Beavers	jtbeavers@utexas.edu	4.706
+Dr. David Beaver	dib@utexas.edu	4.708
+Dr. Megan Crowhurst	mcrowhurst@mail.utexas.edu	4.712
+Dr. David Quinto-Pozos	davidqp@austin.utexas.edu	4.714
+Liz Myrick	lmyrick@austin.utexas.edu	4.718
+Dr. Richard Meier	rmeier@austin.utexas.edu	4.720
+Dr. Rajka Smiljanic	rajka@mail.utexas.edu	4.724
+Dr. Scott Myers	s.myers@mail.utexas.edu	4.726
+Dr. Tony Woodbury	woodbury@austin.utexas.edu	4.728
+Dr. Harvey Sussman	sussman@austin.utexas.edu	4.730
+Dr. Nora England	nengland@austin.utexas.edu	4.732
+Dr. Katrin Erk	katrin.erk@mail.utexas.edu	4.734
+Dr. Pattie Epps	pattieepps@austin.utexas.edu	4.736
+Dr. Jason Baldridge	jbaldrid@mail.utexas.edu	4.738
+David Simmons	david.simmons@utexas.edu	4.618
+Debbie White	debbiewhiteasl@gmail.com	4.620
+Franky Schussel	franky-ramont@utexas.edu	4.622
+Carol Seeger		4.624
+Michael Wynne	mwynnejr@mac.com	4.626
+Cynthia Gladstone	cgladstone@mail.utexas.edu	4.304C
+Ben Rapstine	rapstine@austin.utexas.edu	4.304D
+Gina Pollard	ginapollard@austin.utexas.edu	4.304
