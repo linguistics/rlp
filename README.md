@@ -9,11 +9,11 @@
 
 **Workstation modifications**
 
-1. Open [`students.csv`](students.csv) in a unicode-friendly editor.
+1. Open [`people.tsv`](people.tsv) in a unicode-friendly editor.
 2. Make your changes
-3. Save with `utf-8` encoding. You can ensure that it was saved correctly by running `file students.csv` at the command line, which should return:
+3. Save with `utf-8` encoding. You can ensure that it was saved correctly by running `file people.tsv` at the command line, which should return:
 
-> students.csv: UTF-8 Unicode text
+> people.tsv: UTF-8 Unicode text
 
 **Rendering and Printing**
 
