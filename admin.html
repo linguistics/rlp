@@ -33,24 +33,29 @@
   </header>
 
   <section ng-if="all">
-    <h3>All students</h3>
-    <p>all active students</p>
+    <header>
+      <h3>All students</h3>
+      <p>all active students</p>
+    </header>
     <!-- <students ng-model="" where="{}" /> -->
     <contacts ng-model="students"></contacts>
   </section>
   <section>
-    <h3>Incumbents</h3>
-    <p>all students with a workstation</p>
+    <header>
+      <h3>Incumbents</h3>
+      <p>all students with a workstation</p>
+    </header>
     <contacts ng-model="students" where="{incumbent:true}" format="$storage.contact_format"></contacts>
   </section>
   <section>
-    <h3>Privileged</h3>
-    <p>students who need workstations</p>
-    <textarea separator="'\n'" ng-model="$storage.privileged" style="height: 400px">
-    </textarea>
+    <header>
+      <h3>Privileged</h3>
+      <p>students who need workstations</p>
+    </header>
+    <textarea separator="'\n'" ng-model="$storage.privileged" style="height: 400px" placeholder="One full name per line"></textarea>
 
     <div ng-show="privileged_missing">
-      <p>names that don't match up</p>
+      <p>names that don't match any of the existing students in <code>people.tsv</code></p>
       <ul>
         <li ng-repeat="name in privileged_missing track by $index">{{name}}</li>
       </ul>
@@ -60,8 +65,10 @@
     <h3>➔</h3>
   </section>
   <section>
-    <h3>Residents</h3>
-    <p>will stay in their current place</p>
+    <header>
+      <h3>Residents</h3>
+      <p>will stay in their current place</p>
+    </header>
     <contacts ng-model="students" where="{resident:true}" format="$storage.contact_format"></contacts>
 
     <!-- <h3>Itinerants</h3>
@@ -69,10 +76,11 @@
     <contacts ng-model="students" where="{itinerant:true}" format="$storage.contact_format"></contacts> -->
   </section>
   <section>
-    <h3>Homeless</h3>
-    <p>unprivileged (must apply for workstations)</p>
+    <header>
+      <h3>Homeless</h3>
+      <p>unprivileged (must apply for workstations)</p>
+    </header>
     <contacts ng-model="students" where="{homeless:true}" format="$storage.contact_format"></contacts>
-
 
     <h3>Winners</h3>
     <p>{{$storage.nworkstations}} workstations - {{$storage.privileged.length}} privileged =
@@ -88,8 +96,10 @@
   </section>
 
   <section>
-    <h3>Evictions</h3>
-    <p>need to move out (were not awarded workstation via application)</p>
+    <header>
+      <h3>Evictions</h3>
+      <p>need to move out (were not awarded workstation via application)</p>
+    </header>
     <contacts ng-model="students" where="{itinerant:true,winner:false}" format="$storage.contact_format"></contacts>
 
     <h3>Incoming</h3>

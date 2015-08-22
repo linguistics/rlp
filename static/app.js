@@ -104,7 +104,7 @@ app.controller('AdminCtrl', function($scope, $http, $localStorage) {
     });
 
     $scope.students.forEach(function(s) {
-      s.incumbent = s.workstation !== '';
+      s.incumbent = s.location !== '';
       s.privileged = $scope.$storage.privileged.indexOf(s.name) != -1;
       // `itinerants = incumbents - privileged` (students who may need to move out)
       s.itinerant = s.incumbent && !s.privileged;
@@ -125,7 +125,7 @@ app.controller('AdminCtrl', function($scope, $http, $localStorage) {
 
   $http.get('people.tsv').then(function(res) {
     $scope.students = parseSV(res.data).filter(function(occupant) {
-      return occupant.location && occupant.location.match(/^[AWE]\d+/);
+      return occupant.name && (occupant.location === '') || occupant.location.match(/^[WE]\d+/);
     });
   }, function(err) {
     console.log('Encountered error:', err);
