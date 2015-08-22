@@ -12,7 +12,9 @@ function parseSV(text) {
 }
 
 
-var app = angular.module('app', ['ngStorage']);
+var app = angular.module('app', [
+  'ngStorage',
+]);
 
 // reusables:
 
@@ -68,16 +70,16 @@ app.controller('MapCtrl', function($scope) {
 app.directive('map', function($http, $q) {
   return {
     restrict: 'E',
-    link: function(scope, el, attrs) {
+    link: function(scope, el) {
       $q.all({
         svg: $http.get('map.svg'),
-        tsv: $http.get('students.tsv')
+        tsv: $http.get('people.tsv')
       }).then(function(responses) {
         // res objects have these fields: config, data, headers, status
-        var students = parseSV(responses.tsv.data);
-        var svg = responses.svg.data.replace(/\{\{(\w+)\}\}/g, function(match, token) {
-          var occupying_student = _.findWhere(students, {workstation: token});
-          return occupying_student ? occupying_student.name : '';
+        var people = parseSV(responses.tsv.data);
+        var svg = responses.svg.data.replace(/\{\{(.+?)\}\}/g, function(match, token) {
+          var occupant = _.findWhere(people, {location: token});
+          return occupant ? occupant.name : '';
         });
 
         el.html(svg).find('svg').css({width: '100%', height: '100%'});
@@ -121,8 +123,10 @@ app.controller('AdminCtrl', function($scope, $http, $localStorage) {
   $scope.$watch('$storage.privileged', $scope.recompute);
   $scope.$watch('$storage.winners', $scope.recompute);
 
-  $http.get('students.tsv').then(function(res) {
-    $scope.students = parseSV(res.data);
+  $http.get('people.tsv').then(function(res) {
+    $scope.students = parseSV(res.data).filter(function(occupant) {
+      return occupant.location && occupant.location.match(/^[AWE]\d+/);
+    });
   }, function(err) {
     console.log('Encountered error:', err);
   });
