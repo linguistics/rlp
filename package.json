@@ -1,12 +1,14 @@
 {
-  "name": "linguistics/cla",
+  "name": "linguistics-cla",
   "homepage": "https://github.com/linguistics/cla",
+  "bugs": "https://github.com/linguistics/cla/issues",
   "repository": {
     "type": "git",
-    "url": "git://github.com/linguistics/cla.git"
+    "url": "https://github.com/linguistics/cla.git"
   },
-  "bugs": {
-    "url": "https://github.com/linguistics/cla/issues"
+  "devDependencies": {
+    "clean-css": "*",
+    "less": "*"
   },
   "staticDependencies": {
     "angular": "*",
