@@ -78,8 +78,9 @@ app.directive('map', function($http, $q) {
         // res objects have these fields: config, data, headers, status
         var people = parseSV(responses.tsv.data);
         var svg = responses.svg.data.replace(/\{\{(.+?)\}\}/g, function(match, token) {
-          var occupant = _.findWhere(people, {location: token});
-          return occupant ? occupant.name : '';
+          var occupants = _.where(people, {location: token});
+          var occupant_names = _.pluck(occupants, 'name');
+          return occupant_names.join(', ');
         });
 
         el.html(svg).find('svg').css({width: '100%', height: '100%'});
