@@ -1,5 +1,13 @@
 ## Instructions
 
+**Making updates**
+
+If you want to push changes directly to this repository, one of the [@linguistics](https://github.com/linguistics) organization administrators will need to grant you access.
+
+If you don't think you'll need to make changes very often, you can fork this repository and clone the fork to your local hard drive, or use GitHub to edit the file (in which case it will create a fork for you).
+After you've committed your changes to your fork, you will need to submit a pull request to this repository, which the GitHub web interface makes quite easy.
+This will notify the organization members, and one of them will be able to merge your changes.
+
 **Design modifications**
 
 1. Open [`map.sketch`](map.sketch) in [Sketch 2](http://www.bohemiancoding.com/sketch/)
@@ -10,22 +18,15 @@
 **Workstation modifications**
 
 1. Open [`people.tsv`](people.tsv) in a unicode-friendly editor.
-2. Make your changes
+2. Make your changes, preserving the column headers and tab-separated format
 3. Save with `utf-8` encoding. You can ensure that it was saved correctly by running `file people.tsv` at the command line, which should return:
 
 > people.tsv: UTF-8 Unicode text
 
 **Rendering and Printing**
 
-1. Commit and push all changes made above:
-
-```sh
-git commit -a -m "Updated with new students"  # (for example)
-git push
-```
-
-2. Open [linguistics.github.io/cla/map.html](http://linguistics.github.io/cla/map.html) in [Chrome](https://www.google.com/chrome/).
-3. Print to PDF or a physical destination.
+1. Open <https://linguistics.github.io/cla/map.html> in [Chrome](https://www.google.com/chrome/).
+2. Print to PDF or a physical destination.
     * By default, Chrome should use a landscape layout and minimal margins.
 
 
