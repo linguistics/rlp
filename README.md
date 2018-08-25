@@ -25,7 +25,7 @@ This will notify the organization members, and one of them will be able to merge
 
 **Rendering and Printing**
 
-1. Open <https://linguistics.github.io/cla/map.html> in [Chrome](https://www.google.com/chrome/).
+1. Open <https://linguistics.github.io/rlp/map.html> in [Chrome](https://www.google.com/chrome/).
 2. Print to PDF or a physical destination.
     * By default, Chrome should use a landscape layout and minimal margins.
 

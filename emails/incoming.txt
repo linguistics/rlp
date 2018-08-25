@@ -4,7 +4,7 @@ Management has automatically allotted you workstation space, but you do not curr
 
 To select one, please follow these steps:
 
-1. View the workstation map at http://linguistics.github.io/cla/map
+1. View the workstation map at http://linguistics.github.io/rlp/map
 
 2. Don't pick any of these:
 

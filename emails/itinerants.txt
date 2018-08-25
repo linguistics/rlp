@@ -1,6 +1,6 @@
 Hi all, by my records, each of you had a workstation last semester or were using one over the summer. But by Management's records, you don't have a TA/AI/Fellowship this semester, so you don't automatically get a workstation, and will have to apply for one (there will be several up for adoption).
 
-In particular, the following cubes have been requested so far (see http://linguistics.github.io/cla/map to determine if you are using one of these workstations):
+In particular, the following cubes have been requested so far (see http://linguistics.github.io/rlp/map to determine if you are using one of these workstations):
 
     [List of workstation requested by the "incoming" set]
 
