@@ -10,10 +10,10 @@ This will notify the organization members, and one of them will be able to merge
 
 **Design modifications**
 
-1. Open [`map.sketch`](map.sketch) in [Sketch 2](http://www.bohemiancoding.com/sketch/)
+1. Open [`map.sketch`](map.sketch) in [Sketch](http://www.bohemiancoding.com/sketch/)
 2. Make your changes
 3. Save (optional)
-4. Export to [`map.svg`](map.svg) with "Trim transparent pixels" checked, including all layers.
+4. Export to [`map.svg`](map.svg)
 
 **Workstation modifications**
 
