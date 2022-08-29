@@ -17,11 +17,15 @@ This will notify the organization members, and one of them will be able to merge
 
 **Workstation modifications**
 
-1. Open [`people.tsv`](people.tsv) in a unicode-friendly editor.
+1. Open [`people.tsv`](people.tsv) in a unicode-friendly editor. (Note from MHP: If possible, just use the github editor, to avoid encoding mixups.)
 2. Make your changes, preserving the column headers and tab-separated format
 3. Save with `utf-8` encoding. You can ensure that it was saved correctly by running `file people.tsv` at the command line, which should return:
 
 > people.tsv: UTF-8 Unicode text
+
+If it is returning ASCII instead, well, technically ASCII is a type of UTF-8, but the code won't accept that. The fix for this problem ([drawn from this StackOverflow](https://stackoverflow.com/a/28380315)) is:
+
+> (printf "\357\273\277";cat INPUT.tsv) > OUTPUT.tsv
 
 **Rendering and Printing**
 
