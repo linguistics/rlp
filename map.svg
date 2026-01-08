@@ -183,7 +183,7 @@
         <g id="Workstations-East---Listing" transform="translate(193, 40)" fill="#000000" font-family="Helvetica" font-size="9" font-weight="normal">
             <text id="Akshay-Aitha-4.706-J">
                 <tspan x="0" y="27">Akshay Aitha   4.706</tspan>
-                <tspan x="0" y="38">Jess Alexander   4.110/E9</tspan>
+                <tspan x="0" y="38">Jess Alexander   4.110/W5</tspan>
                 <tspan x="0" y="49">Erica Alvarez   4.718</tspan>
                 <tspan x="0" y="60">Ivana Ash   E1</tspan>
                 <tspan x="0" y="71">Cem Barutçu   E9</tspan>
@@ -198,7 +198,7 @@
                 <tspan x="0" y="170">Megan Crowhurst   4.712</tspan>
                 <tspan x="0" y="181">Meg Davidson   WCP 4.134</tspan>
                 <tspan x="0" y="192">Ashwini Deo   4.426</tspan>
-                <tspan x="0" y="203">Sampada Deshpande   W5</tspan>
+                <tspan x="0" y="203">Sampada Deshpande   4.434</tspan>
                 <tspan x="0" y="214">Pattie Epps   4.736</tspan>
                 <tspan x="0" y="225">Teagan Esther   E7</tspan>
                 <tspan x="0" y="236">James Fazio   4.622</tspan>
@@ -206,10 +206,10 @@
                 <tspan x="0" y="258">Barrett Hamp   W12</tspan>
                 <tspan x="0" y="269">Leticia Hanada   W10</tspan>
                 <tspan x="0" y="280">Ethan Hartzell   E3</tspan>
-                <tspan x="0" y="291">Juan Pablo Jáuregui Magrina   (NA)</tspan>
+                <tspan x="0" y="291"></tspan>
             </text>
-            <text id="Taylor-Joyce-W11-Anu">
-                <tspan x="173" y="48">Taylor Joyce   W11</tspan>
+            <text id="Juan-Pablo-Jáuregui">
+                <tspan x="173" y="48">Juan Pablo Jáuregui Magrina   (NA)</tspan>
                 <tspan x="173" y="59">Anushri Kartik-Narajan   4.110</tspan>
                 <tspan x="173" y="70">Danny Law   4.432</tspan>
                 <tspan x="173" y="81">Rebecca Le Borgne   4.624</tspan>
@@ -224,32 +224,33 @@
                 <tspan x="173" y="180">Kaiji Mo   W1</tspan>
                 <tspan x="173" y="191">Scott Myers   4.726</tspan>
                 <tspan x="173" y="202">Lillian Nguyen   FD</tspan>
-                <tspan x="173" y="213">Baorian Nuchged   4.110/W8</tspan>
+                <tspan x="173" y="213">Baorian Nuchged   4.110/W11</tspan>
                 <tspan x="173" y="224">Karol Obert   4.734</tspan>
                 <tspan x="173" y="235">Corrine Occhino   4.704</tspan>
                 <tspan x="173" y="246">Lee Orfila   W8</tspan>
                 <tspan x="173" y="257">Youn-Gyu Park   W7</tspan>
-                <tspan x="173" y="268">SeYeon Park   E10</tspan>
+                <tspan x="173" y="268">SeYeon Park   (NA)</tspan>
                 <tspan x="173" y="279">Justin Power   4.740</tspan>
             </text>
             <text id="David-Quinto-Pozos-4">
                 <tspan x="416" y="9">David Quinto-Pozos   4.714</tspan>
-                <tspan x="416" y="20">Ben Rapstine   4.304D</tspan>
-                <tspan x="416" y="31">Oscar Rojas   E8</tspan>
-                <tspan x="416" y="42">Catalina Santamaria Soto   E12</tspan>
-                <tspan x="416" y="53">Jefferson Saransig   W13</tspan>
-                <tspan x="416" y="64">Ari Schifman   E2</tspan>
-                <tspan x="416" y="75">Will Sheffield   W4</tspan>
-                <tspan x="416" y="86">Rajka Smiljanić   4.724</tspan>
-                <tspan x="416" y="97">Madeline Smith   (NA)</tspan>
-                <tspan x="416" y="108">Steve Wechsler   4.702</tspan>
-                <tspan x="416" y="119">Debbie White   4.620</tspan>
-                <tspan x="416" y="130">Elijah Wilder   E11</tspan>
-                <tspan x="416" y="141">Tony Woodbury   4.738</tspan>
-                <tspan x="416" y="152">Michael Wynne   4.626</tspan>
-                <tspan x="416" y="163">Qing Yao   W6</tspan>
-                <tspan x="416" y="174">Hongli Zhan   (NA)</tspan>
-                <tspan x="416" y="185">Asher Zheng   W3</tspan>
+                <tspan x="416" y="20">Sarah Ransom Laud   (NA)</tspan>
+                <tspan x="416" y="31">Ben Rapstine   4.304D</tspan>
+                <tspan x="416" y="42">Oscar Rojas   E8</tspan>
+                <tspan x="416" y="53">Catalina Santamaria Soto   E12</tspan>
+                <tspan x="416" y="64">Jefferson Saransig   W13</tspan>
+                <tspan x="416" y="75">Ari Schifman   E2</tspan>
+                <tspan x="416" y="86">Will Sheffield   W4</tspan>
+                <tspan x="416" y="97">Rajka Smiljanić   4.724</tspan>
+                <tspan x="416" y="108">Madeline Smith   E10</tspan>
+                <tspan x="416" y="119">Steve Wechsler   4.702</tspan>
+                <tspan x="416" y="130">Debbie White   4.620</tspan>
+                <tspan x="416" y="141">Elijah Wilder   E11</tspan>
+                <tspan x="416" y="152">Tony Woodbury   4.738</tspan>
+                <tspan x="416" y="163">Michael Wynne   4.626</tspan>
+                <tspan x="416" y="174">Qing Yao   W6</tspan>
+                <tspan x="416" y="185">Hongli Zhan   (NA)</tspan>
+                <tspan x="416" y="196">Asher Zheng   W3</tspan>
             </text>
         </g>
         <g id="Workstations-East---Outlines" transform="translate(599, 369)" stroke="#000000">
