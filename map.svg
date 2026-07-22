@@ -5,7 +5,7 @@
         <g id="Slices"></g>
         <g id="Offices-Shapes" transform="translate(6.7822, 40.5352)" stroke="#000000">
             <polygon id="Shape" points="745.29492 295.36718 694.19824 295.36718 694.19824 306.71191 613.23047 306.71191 613.23047 217.74804 745.29492 217.74804"></polygon>
-            <line x1="157.71777" y1="0.96484" x2="331.71777" y2="0.96484" id="Line" stroke-linecap="square"></line>
+            <line x1="157.71777" y1="0.96484" x2="286.71777" y2="0.96484" id="Line" stroke-linecap="square"></line>
             <polygon id="Shape" points="745.29492 520.25976 665.88672 520.25976 665.88672 465.24218 688.00488 465.24218 688.00488 472.80664 745.29492 472.80664"></polygon>
             <rect id="Rectangle" x="613.70507" y="465.24218" width="49.15723" height="55.01758"></rect>
             <rect id="Rectangle" x="525.60058" y="465.24218" width="45.37598" height="55.01758"></rect>
@@ -35,8 +35,7 @@
             <polygon id="Rectangle" points="68.21777 195.46484 68.21777 241.46484 153.67578 241.46484 153.67578 195.46484"></polygon>
             <polygon id="Rectangle" points="523.46777 131.20947 523.46777 164.17431 572.46777 164.17431 572.46777 131.20947"></polygon>
             <polygon id="Rectangle" points="523.46777 96 523.46777 128.96484 572.46777 128.96484 572.46777 96"></polygon>
-            <path d="M571.21777,93.46484 C571.188131,69.8998458 571.165901,52.2261002 571.151082,40.4436031 C571.140188,31.7816558 571.123845,18.7887347 571.102055,1.46484 C511.348393,1.46484 466.533145,1.46484 436.656314,1.46484 C429.003304,1.46484 417.52379,1.46484 402.21777,1.46484" id="Shape"></path>
-            <polygon id="Rectangle" points="335.46777 1 335.46777 29 399.46777 29 399.46777 1"></polygon>
+            <path d="M571.21777,93.46484 C571.199004,69.8998458 571.18493,52.2261002 571.175547,40.4436031 C571.16865,31.7816558 571.158303,18.7887347 571.144507,1.46484 C533.312306,1.46484 504.938156,1.46484 486.022055,1.46484 C481.176659,1.46484 473.908563,1.46484 464.21777,1.46484" id="Shape"></path>
             <polygon id="Rectangle" points="523.46777 166.41894 523.46777 199.38378 572.46777 199.38378 572.46777 166.41894"></polygon>
             <rect id="Rectangle" x="523.46777" y="201.62793" width="49" height="32.96484"></rect>
             <polygon id="Rectangle" points="523.46777 236.8374 523.46777 269.80224 572.46777 269.80224 572.46777 236.8374"></polygon>
@@ -45,213 +44,219 @@
             <rect id="Rectangle" x="507.44824" y="394.90918" width="55.20898" height="49.1582"></rect>
             <polygon id="Rectangle" points="341.07129 376.38183 341.07129 444.06738 426.5293 444.06738 426.5293 376.38183"></polygon>
             <polygon id="Rectangle" points="68.21777 0.46484 68.21777 46.46484 153.67578 46.46484 153.67578 0.46484"></polygon>
+            <polygon id="Rectangle" points="290.21777 1.46484 290.21777 47.46484 375.67578 47.46484 375.67578 1.46484"></polygon>
+            <polygon id="Rectangle" points="377.21777 1.46484 377.21777 47.46484 462.67578 47.46484 462.67578 1.46484"></polygon>
             <polygon id="Rectangle" points="68.21777 48.46484 68.21777 82.46484 153.21777 82.46484 153.21777 48.46484"></polygon>
         </g>
-        <g id="Offices-Labels" transform="translate(22, 45)" fill="#000000" font-family="Helvetica" font-weight="normal">
+        <g id="Offices-Labels" transform="translate(22, 47)" fill="#000000" font-family="Helvetica" font-weight="normal">
             <text id="4.422-Computational" font-size="9">
-                <tspan x="61" y="206">4.422</tspan>
-                <tspan x="61" y="217">Computational</tspan>
-                <tspan x="61" y="228">Linguistics Lab</tspan>
+                <tspan x="61" y="204">4.422</tspan>
+                <tspan x="61" y="215">Computational</tspan>
+                <tspan x="61" y="226">Linguistics Lab</tspan>
+            </text>
+            <text id="4.530C-Multimodal-La" font-size="9">
+                <tspan x="280" y="11">4.530C</tspan>
+                <tspan x="280" y="22">Multimodal</tspan>
+                <tspan x="280" y="33">Language Lab</tspan>
+            </text>
+            <text id="4.530D-Language-Docu" font-size="9">
+                <tspan x="366" y="11">4.530D</tspan>
+                <tspan x="366" y="22">Language</tspan>
+                <tspan x="366" y="33">Documentation Lab</tspan>
             </text>
             <text id="4.110-Neurolinguisti" font-size="9">
-                <tspan x="61" y="11">4.110</tspan>
-                <tspan x="61" y="22">Neurolinguistics</tspan>
-                <tspan x="61" y="33">Lab</tspan>
-            </text>
-            <text id="4.530C-Occhino-Lab" font-size="9">
-                <tspan x="325" y="9">4.530C</tspan>
-                <tspan x="325" y="20">Occhino Lab</tspan>
+                <tspan x="61" y="9">4.110</tspan>
+                <tspan x="61" y="20">Neurolinguistics</tspan>
+                <tspan x="61" y="31">Lab</tspan>
             </text>
             <text id="4.426" font-size="10">
-                <tspan x="0.487792969" y="321">4.426</tspan>
+                <tspan x="0.487792969" y="319">4.426</tspan>
             </text>
             <text id="4.428" font-size="10">
-                <tspan x="0.487792969" y="364">4.428</tspan>
+                <tspan x="0.487792969" y="362">4.428</tspan>
             </text>
             <text id="4.430" font-size="10">
-                <tspan x="0.487792969" y="405">4.430</tspan>
+                <tspan x="0.487792969" y="403">4.430</tspan>
             </text>
             <text id="4.432" font-size="10">
-                <tspan x="0.487792969" y="447">4.432</tspan>
+                <tspan x="0.487792969" y="445">4.432</tspan>
             </text>
             <text id="4.702" font-size="10">
-                <tspan x="13.487793" y="493">4.702</tspan>
+                <tspan x="13.487793" y="491">4.702</tspan>
             </text>
             <text id="4.704" font-size="10">
-                <tspan x="80.487793" y="493">4.704</tspan>
+                <tspan x="80.487793" y="491">4.704</tspan>
             </text>
             <text id="4.706" font-size="10">
-                <tspan x="128.487793" y="493">4.706</tspan>
+                <tspan x="128.487793" y="491">4.706</tspan>
             </text>
             <text id="4.708" font-size="10">
-                <tspan x="171.487793" y="493">4.708</tspan>
+                <tspan x="171.487793" y="491">4.708</tspan>
             </text>
             <text id="4.712" font-size="10">
-                <tspan x="215.487793" y="493">4.712</tspan>
+                <tspan x="215.487793" y="491">4.712</tspan>
             </text>
             <text id="4.714" font-size="10">
-                <tspan x="259.487793" y="493">4.714</tspan>
+                <tspan x="259.487793" y="491">4.714</tspan>
             </text>
             <text id="4.718" font-size="10">
-                <tspan x="307.487793" y="493">4.718</tspan>
+                <tspan x="307.487793" y="491">4.718</tspan>
             </text>
             <text id="4.720" font-size="10">
-                <tspan x="371.487793" y="493">4.720</tspan>
+                <tspan x="371.487793" y="491">4.720</tspan>
             </text>
             <text id="4.724" font-size="10">
-                <tspan x="431.487793" y="493">4.724</tspan>
+                <tspan x="431.487793" y="491">4.724</tspan>
             </text>
             <text id="4.726" font-size="10">
-                <tspan x="474.487793" y="493">4.726</tspan>
+                <tspan x="474.487793" y="491">4.726</tspan>
             </text>
             <text id="4.728" font-size="10">
-                <tspan x="519.487793" y="493">4.728</tspan>
+                <tspan x="519.487793" y="491">4.728</tspan>
             </text>
             <text id="4.730" font-size="10">
-                <tspan x="610.487793" y="493">4.730</tspan>
+                <tspan x="610.487793" y="491">4.730</tspan>
             </text>
             <text id="4.732" font-size="10">
-                <tspan x="677.487793" y="493">4.732</tspan>
+                <tspan x="677.487793" y="491">4.732</tspan>
             </text>
             <text id="4.734" font-size="10">
-                <tspan x="689.487793" y="449">4.734</tspan>
+                <tspan x="689.487793" y="447">4.734</tspan>
             </text>
             <text id="4.736" font-size="10">
-                <tspan x="689.487793" y="407">4.736</tspan>
+                <tspan x="689.487793" y="405">4.736</tspan>
             </text>
             <text id="4.738" font-size="10">
-                <tspan x="689.487793" y="364">4.738</tspan>
+                <tspan x="689.487793" y="362">4.738</tspan>
             </text>
             <text id="4.618" font-size="10">
-                <tspan x="519.487793" y="112">4.618</tspan>
+                <tspan x="519.487793" y="110">4.618</tspan>
             </text>
             <text id="4.620" font-size="10">
-                <tspan x="519.487793" y="147">4.620</tspan>
+                <tspan x="519.487793" y="145">4.620</tspan>
             </text>
             <text id="4.622" font-size="10">
-                <tspan x="519.487793" y="182">4.622</tspan>
+                <tspan x="519.487793" y="180">4.622</tspan>
             </text>
             <text id="4.624" font-size="10">
-                <tspan x="519.487793" y="217">4.624</tspan>
+                <tspan x="519.487793" y="215">4.624</tspan>
             </text>
             <text id="4.626" font-size="10">
-                <tspan x="519.487793" y="252">4.626</tspan>
+                <tspan x="519.487793" y="250">4.626</tspan>
             </text>
             <text id="4.740" font-size="10">
-                <tspan x="689.487793" y="314">4.740</tspan>
-                <tspan x="688.103516" y="326">CILLA</tspan>
+                <tspan x="689.487793" y="312">4.740</tspan>
+                <tspan x="688.103516" y="324">CILLA</tspan>
             </text>
             <text id="4.434" font-size="9">
-                <tspan x="164" y="354">4.434</tspan>
-                <tspan x="164" y="365">Syntax &amp; Semantics</tspan>
-                <tspan x="164" y="376">Computer Lab</tspan>
+                <tspan x="164" y="352">4.434</tspan>
+                <tspan x="164" y="363">Syntax &amp; Semantics</tspan>
+                <tspan x="164" y="374">Computer Lab</tspan>
             </text>
             <text id="4.710" font-size="9">
-                <tspan x="164" y="407">4.710</tspan>
-                <tspan x="164" y="418">Syntax &amp; Semantics</tspan>
-                <tspan x="164" y="429">Meeting Room</tspan>
+                <tspan x="164" y="405">4.710</tspan>
+                <tspan x="164" y="416">Syntax &amp; Semantics</tspan>
+                <tspan x="164" y="427">Meeting Room</tspan>
             </text>
             <text id="4.716" font-size="9">
-                <tspan x="333" y="416">4.716</tspan>
-                <tspan x="333" y="427">Documentary Lab</tspan>
+                <tspan x="333" y="414">4.716</tspan>
+                <tspan x="333" y="425">Documentary Lab</tspan>
             </text>
             <text id="4.304C" font-size="10">
-                <tspan x="266" y="367">4.304C</tspan>
+                <tspan x="266" y="365">4.304C</tspan>
             </text>
             <text id="4.304D" font-size="10">
-                <tspan x="266" y="419">4.304D</tspan>
+                <tspan x="266" y="417">4.304D</tspan>
             </text>
             <text id="4.722-Sound-Lab" font-size="9">
-                <tspan x="421" y="416">4.722</tspan>
-                <tspan x="421" y="427">Sound Lab</tspan>
+                <tspan x="421" y="414">4.722</tspan>
+                <tspan x="421" y="425">Sound Lab</tspan>
             </text>
             <text id="4.722B" font-size="9">
-                <tspan x="499" y="407">4.722B</tspan>
-                <tspan x="499" y="418">Recording </tspan>
-                <tspan x="499" y="429">Booth</tspan>
+                <tspan x="499" y="405">4.722B</tspan>
+                <tspan x="499" y="416">Recording </tspan>
+                <tspan x="499" y="427">Booth</tspan>
             </text>
             <text id="4.722A" font-size="9">
-                <tspan x="499" y="349">4.722A</tspan>
-                <tspan x="499" y="360">Recording </tspan>
-                <tspan x="499" y="371">Control </tspan>
-                <tspan x="499" y="382">Room</tspan>
+                <tspan x="499" y="347">4.722A</tspan>
+                <tspan x="499" y="358">Recording </tspan>
+                <tspan x="499" y="369">Control </tspan>
+                <tspan x="499" y="380">Room</tspan>
             </text>
             <text id="Front-Desk-(FD)" font-size="8">
-                <tspan x="328.332031" y="319">Front Desk (FD)</tspan>
+                <tspan x="328.332031" y="317">Front Desk (FD)</tspan>
             </text>
         </g>
-        <g id="Workstations-East---Listing" transform="translate(193, 40)" fill="#000000" font-family="Helvetica" font-size="9" font-weight="normal">
+        <g id="Workstations-East---Listing" transform="translate(182, 40)" fill="#000000" font-family="Helvetica" font-size="9" font-weight="normal">
             <text id="Akshay-Aitha-4.706-J">
-                <tspan x="0" y="27">Akshay Aitha   4.706</tspan>
-                <tspan x="0" y="38">Jess Alexander   4.110/W5</tspan>
-                <tspan x="0" y="49">Erica Alvarez   4.718</tspan>
-                <tspan x="0" y="60">Ivana Ash   E1</tspan>
-                <tspan x="0" y="71">Cem Barutçu   E9</tspan>
-                <tspan x="0" y="82">David Beaver   4.708</tspan>
-                <tspan x="0" y="93">John Beavers   4.720</tspan>
-                <tspan x="0" y="104">Sasha Boguraev   W2</tspan>
-                <tspan x="0" y="115">Anna Borisova   FD</tspan>
-                <tspan x="0" y="126">Thiago Cardoso Aguiar   W9</tspan>
-                <tspan x="0" y="137">Masha Cheremisinova   E5</tspan>
-                <tspan x="0" y="148">Yejin Cho   (NA)</tspan>
-                <tspan x="0" y="159">Gabriella Chronis   E4</tspan>
-                <tspan x="0" y="170">Caitlin Coons   E10</tspan>
-                <tspan x="0" y="181">Megan Crowhurst   4.712</tspan>
-                <tspan x="0" y="192">Meg Davidson   WCP 4.134</tspan>
-                <tspan x="0" y="203">Ashwini Deo   4.426</tspan>
-                <tspan x="0" y="214">Sampada Deshpande   4.434</tspan>
-                <tspan x="0" y="225">Pattie Epps   4.736</tspan>
-                <tspan x="0" y="236">Teagan Esther   E7</tspan>
-                <tspan x="0" y="247">James Fazio   4.622</tspan>
-                <tspan x="0" y="258">Gabriel Gallinate   E8</tspan>
-                <tspan x="0" y="269">Barrett Hamp   W12</tspan>
-                <tspan x="0" y="280">Leticia Hanada   W10</tspan>
-                <tspan x="0" y="291">Ethan Hartzell   E3</tspan>
-                <tspan x="0" y="302"></tspan>
+                <tspan x="0" y="24">Akshay Aitha   4.706</tspan>
+                <tspan x="0" y="35">Jess Alexander   4.110/W5</tspan>
+                <tspan x="0" y="46">Erica Alvarez   4.718</tspan>
+                <tspan x="0" y="57">Ivana Ash   E1</tspan>
+                <tspan x="0" y="68">Cem Barutçu   E9</tspan>
+                <tspan x="0" y="79">David Beaver   4.708</tspan>
+                <tspan x="0" y="90">John Beavers   4.720</tspan>
+                <tspan x="0" y="101">Sasha Boguraev   W2</tspan>
+                <tspan x="0" y="112">Anna Borisova   FD</tspan>
+                <tspan x="0" y="123">Thiago Cardoso Aguiar   W9</tspan>
+                <tspan x="0" y="134">Masha Cheremisinova   E5</tspan>
+                <tspan x="0" y="145">Yejin Cho   (NA)</tspan>
+                <tspan x="0" y="156">Gabriella Chronis   E4</tspan>
+                <tspan x="0" y="167">Caitlin Coons   E10</tspan>
+                <tspan x="0" y="178">Megan Crowhurst   4.712</tspan>
+                <tspan x="0" y="189">Meg Davidson   WCP 4.134</tspan>
+                <tspan x="0" y="200">Sampada Deshpande   4.434</tspan>
+                <tspan x="0" y="211">Pattie Epps   4.736</tspan>
+                <tspan x="0" y="222">Teagan Esther   E7</tspan>
+                <tspan x="0" y="233">James Fazio   4.622</tspan>
+                <tspan x="0" y="244">Gabriel Gallinate   E8</tspan>
+                <tspan x="0" y="255">Barrett Hamp   W12</tspan>
+                <tspan x="0" y="266">Leticia Hanada   W10</tspan>
+                <tspan x="0" y="277">Ethan Hartzell   E3</tspan>
+                <tspan x="0" y="288">Juan Pablo Jáuregui Magrina   (NA)</tspan>
+                <tspan x="0" y="299"></tspan>
             </text>
-            <text id="Juan-Pablo-Jáuregui">
-                <tspan x="173" y="48">Juan Pablo Jáuregui Magrina   (NA)</tspan>
-                <tspan x="173" y="59">Anushri Kartik-Narajan   4.110</tspan>
-                <tspan x="173" y="70">Danny Law   4.432</tspan>
-                <tspan x="173" y="81">Rebecca Le Borgne   4.624</tspan>
-                <tspan x="173" y="92">Sooji Lee   E6</tspan>
-                <tspan x="173" y="103">Jessy Li   4.728</tspan>
-                <tspan x="173" y="114">Fernando Llanos   4.730</tspan>
-                <tspan x="173" y="125">Kyle Mahowald   4.430</tspan>
-                <tspan x="173" y="136">Rebecca Marcus   4.304C</tspan>
-                <tspan x="173" y="147">Richard Meier   4.732</tspan>
-                <tspan x="173" y="158">Don Miller   4.618</tspan>
-                <tspan x="173" y="169">Kanishka Misra   4.428</tspan>
-                <tspan x="173" y="180">Kaijie Mo   W1</tspan>
-                <tspan x="173" y="191">Scott Myers   4.726</tspan>
-                <tspan x="173" y="202">Lillian Nguyen   FD</tspan>
-                <tspan x="173" y="213">Baorian Nuchged   4.110/W11</tspan>
-                <tspan x="173" y="224">Karol Obert   4.734</tspan>
-                <tspan x="173" y="235">Corrine Occhino   4.704</tspan>
-                <tspan x="173" y="246">Lee Orfila   W8</tspan>
-                <tspan x="173" y="257">Youn-Gyu Park   W7</tspan>
-                <tspan x="173" y="268">SeYeon Park   (NA)</tspan>
-                <tspan x="173" y="279">Justin Power   4.740</tspan>
+            <text id="Anushri-Kartik-Naraj">
+                <tspan x="184" y="67">Anushri Kartik-Narajan   4.110</tspan>
+                <tspan x="184" y="78">Danny Law   4.432</tspan>
+                <tspan x="184" y="89">Rebecca Le Borgne   4.624</tspan>
+                <tspan x="184" y="100">Sooji Lee   E6</tspan>
+                <tspan x="184" y="111">Jessy Li   4.728</tspan>
+                <tspan x="184" y="122">Fernando Llanos   4.730</tspan>
+                <tspan x="184" y="133">Kyle Mahowald   4.430</tspan>
+                <tspan x="184" y="144">Rebecca Marcus   4.304C</tspan>
+                <tspan x="184" y="155">Richard Meier   4.732</tspan>
+                <tspan x="184" y="166">Don Miller   4.618</tspan>
+                <tspan x="184" y="177">Kanishka Misra   4.428</tspan>
+                <tspan x="184" y="188">Kaijie Mo   W1</tspan>
+                <tspan x="184" y="199">Scott Myers   4.726</tspan>
+                <tspan x="184" y="210">Lillian Nguyen   FD</tspan>
+                <tspan x="184" y="221">Baorian Nuchged   4.110/W11</tspan>
+                <tspan x="184" y="232">Karol Obert   4.734</tspan>
+                <tspan x="184" y="243">Corrine Occhino   4.704</tspan>
+                <tspan x="184" y="254">Lee Orfila   W8</tspan>
+                <tspan x="184" y="265">Youn-Gyu Park   W7</tspan>
+                <tspan x="184" y="276">SeYeon Park   (NA)</tspan>
+                <tspan x="184" y="287">David Quinto-Pozos   4.714</tspan>
             </text>
-            <text id="David-Quinto-Pozos-4">
-                <tspan x="416" y="9">David Quinto-Pozos   4.714</tspan>
-                <tspan x="416" y="20">Sarah Ransom Laud   (NA)</tspan>
-                <tspan x="416" y="31">Ben Rapstine   4.304D</tspan>
-                <tspan x="416" y="42">Oscar Rojas   E8</tspan>
-                <tspan x="416" y="53">Catalina Santamaria Soto   E12</tspan>
-                <tspan x="416" y="64">Jefferson Saransig   W13</tspan>
-                <tspan x="416" y="75">Ari Schifman   E2</tspan>
-                <tspan x="416" y="86">Will Sheffield   W4</tspan>
-                <tspan x="416" y="97">Rajka Smiljanić   4.724</tspan>
-                <tspan x="416" y="108">Madeline Smith   W5</tspan>
-                <tspan x="416" y="119">Steve Wechsler   4.702</tspan>
-                <tspan x="416" y="130">Debbie White   4.620</tspan>
-                <tspan x="416" y="141">Elijah Wilder   E11</tspan>
-                <tspan x="416" y="152">Tony Woodbury   4.738</tspan>
-                <tspan x="416" y="163">Michael Wynne   4.626</tspan>
-                <tspan x="416" y="174">Qing Yao   W6</tspan>
-                <tspan x="416" y="185">Hongli Zhan   (NA)</tspan>
-                <tspan x="416" y="196">Asher Zheng   W3</tspan>
+            <text id="Sarah-Ransom-Laud-(N">
+                <tspan x="427" y="9">Sarah Ransom Laud   (NA)</tspan>
+                <tspan x="427" y="20">Ben Rapstine   4.304D</tspan>
+                <tspan x="427" y="31">Oscar Rojas   E8</tspan>
+                <tspan x="427" y="42">Catalina Santamaria Soto   E12</tspan>
+                <tspan x="427" y="53">Jefferson Saransig   W13</tspan>
+                <tspan x="427" y="64">Ari Schifman   E2</tspan>
+                <tspan x="427" y="75">Will Sheffield   W4</tspan>
+                <tspan x="427" y="86">Rajka Smiljanić   4.724</tspan>
+                <tspan x="427" y="97">Madeline Smith   W5</tspan>
+                <tspan x="427" y="108">Steve Wechsler   4.702</tspan>
+                <tspan x="427" y="119">Debbie White   4.620</tspan>
+                <tspan x="427" y="130">Elijah Wilder   E11</tspan>
+                <tspan x="427" y="141">Tony Woodbury   4.738</tspan>
+                <tspan x="427" y="152">Michael Wynne   4.626</tspan>
+                <tspan x="427" y="163">Qing Yao   W6</tspan>
+                <tspan x="427" y="174">Hongli Zhan   (NA)</tspan>
+                <tspan x="427" y="185">Asher Zheng   W3</tspan>
             </text>
         </g>
         <g id="Workstations-East---Outlines" transform="translate(599, 369)" stroke="#000000">
